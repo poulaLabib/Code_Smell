@@ -55,7 +55,6 @@ python predict_smell_extended.py --use-pmd --use-checkstyle path/to/file.java
 ```
 code_smell_project/
 ├── predict_smell_extended.py  # 🆕 Extended predictor (14 smells)
-├── predict_smell.py           # Original predictor (5 smells)
 ├── tools/
 │   ├── pmd_analyzer.py        # 🆕 PMD integration
 │   ├── checkstyle_analyzer.py # 🆕 Checkstyle integration
