@@ -1,0 +1,122 @@
+{
+  "total": 13,
+  "issues": [
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AnalyzerTomcat12' max_method_loc=80",
+      "class_name": "AnalyzerTomcat12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v1\\AnalyzerTomcat12.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AnalyzerTomcat5' ATFD=11 TCC=1 WMC=1",
+      "class_name": "AnalyzerTomcat5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v1\\AnalyzerTomcat5.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ExecutorTomcat6' max_method_loc=64",
+      "class_name": "ExecutorTomcat6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v1\\ExecutorTomcat6.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'HandlerTomcat7' max_method_loc=78",
+      "class_name": "HandlerTomcat7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v1\\HandlerTomcat7.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ManagerTomcat3' ATFD=9 TCC=1 WMC=1",
+      "class_name": "ManagerTomcat3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v1\\ManagerTomcat3.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ProcessorTomcat14' ATFD=12 TCC=1 WMC=1",
+      "class_name": "ProcessorTomcat14",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v1\\ProcessorTomcat14.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'SchedulerTomcat1' private=6 total=7",
+      "class_name": "SchedulerTomcat1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v1\\SchedulerTomcat1.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ApplicationTomcat10' ATFD=9 TCC=1 WMC=1",
+      "class_name": "ApplicationTomcat10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v2\\ApplicationTomcat10.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ApplicationTomcat2' max_method_loc=61",
+      "class_name": "ApplicationTomcat2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v2\\ApplicationTomcat2.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'FormatterTomcat4' FIELDS=12 WMC=24",
+      "class_name": "FormatterTomcat4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v2\\FormatterTomcat4.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TransformerTomcat13' max_method_loc=74",
+      "class_name": "TransformerTomcat13",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v2\\TransformerTomcat13.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'FactoryTomcat0' FIELDS=11 WMC=22",
+      "class_name": "FactoryTomcat0",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v3\\FactoryTomcat0.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'HandlerTomcat11' ATFD=10 TCC=1 WMC=1",
+      "class_name": "HandlerTomcat11",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\tomcat-sim\\src\\main\\java\\tomcat\\v3\\HandlerTomcat11.java"
+    }
+  ]
+}

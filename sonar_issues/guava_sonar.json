@@ -1,0 +1,3677 @@
+{
+  "total": 408,
+  "issues": [
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CharMatcher' WMC=134 LOC=1036 FIELDS=16",
+      "class_name": "CharMatcher",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\base\\CharMatcher.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Enums' ATFD=6 TCC=9 WMC=6",
+      "class_name": "Enums",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\base\\Enums.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FinalizableReferenceQueue' ATFD=4 TCC=24 WMC=1",
+      "class_name": "FinalizableReferenceQueue",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\base\\FinalizableReferenceQueue.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MoreObjects' WMC=27 LOC=193 FIELDS=5",
+      "class_name": "MoreObjects",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\base\\MoreObjects.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Throwables' ATFD=13 TCC=14 WMC=12",
+      "class_name": "Throwables",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\base\\Throwables.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Utf8' max_method_loc=41",
+      "class_name": "Utf8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\base\\Utf8.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Finalizer' ATFD=9 TCC=12 WMC=4",
+      "class_name": "Finalizer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\base\\internal\\Finalizer.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LocalCache' WMC=183 LOC=3494 FIELDS=0",
+      "class_name": "LocalCache",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\cache\\LocalCache.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LocalCache' ATFD=216 TCC=73 WMC=183",
+      "class_name": "LocalCache",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\cache\\LocalCache.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Striped64' ATFD=8 TCC=12 WMC=2",
+      "class_name": "Striped64",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\cache\\Striped64.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractBiMap' WMC=28 LOC=346 FIELDS=2",
+      "class_name": "AbstractBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\AbstractBiMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMapBasedMultimap' WMC=97 LOC=1189 FIELDS=2",
+      "class_name": "AbstractMapBasedMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\AbstractMapBasedMultimap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractMapBasedMultiset' ATFD=10 TCC=7 WMC=14",
+      "class_name": "AbstractMapBasedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\AbstractMapBasedMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractSortedMultiset' ATFD=4 TCC=4 WMC=4",
+      "class_name": "AbstractSortedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\AbstractSortedMultiset.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractTable' WMC=21 LOC=176 FIELDS=0",
+      "class_name": "AbstractTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\AbstractTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CompactHashMap' WMC=43 LOC=710 FIELDS=5",
+      "class_name": "CompactHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\CompactHashMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CompactHashSet' WMC=25 LOC=474 FIELDS=3",
+      "class_name": "CompactHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\CompactHashSet.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CompactHashSet' max_method_loc=52",
+      "class_name": "CompactHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\CompactHashSet.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CompactHashSet' private=14 total=25",
+      "class_name": "CompactHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\CompactHashSet.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CompactLinkedHashMap' private=7 total=8",
+      "class_name": "CompactLinkedHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\CompactLinkedHashMap.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CompactLinkedHashSet' private=6 total=7",
+      "class_name": "CompactLinkedHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\CompactLinkedHashSet.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ConcurrentHashMultiset' WMC=26 LOC=375 FIELDS=3",
+      "class_name": "ConcurrentHashMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ConcurrentHashMultiset.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'DenseImmutableTable' FIELDS=13 WMC=3",
+      "class_name": "DenseImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\DenseImmutableTable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DenseImmutableTable' ATFD=4 TCC=9 WMC=3",
+      "class_name": "DenseImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\DenseImmutableTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FilteredEntryMultimap' WMC=25 LOC=346 FIELDS=0",
+      "class_name": "FilteredEntryMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\FilteredEntryMultimap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ForwardingSortedMultiset' ATFD=8 TCC=3 WMC=7",
+      "class_name": "ForwardingSortedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ForwardingSortedMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'GeneralRange' ATFD=16 TCC=5 WMC=3",
+      "class_name": "GeneralRange",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\GeneralRange.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'HashBiMap' WMC=58 LOC=852 FIELDS=16",
+      "class_name": "HashBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\HashBiMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'HashBiMap' max_method_loc=49",
+      "class_name": "HashBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\HashBiMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableListMultimap' ATFD=7 TCC=17 WMC=6",
+      "class_name": "ImmutableListMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableListMultimap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableMap' WMC=20 LOC=702 FIELDS=6",
+      "class_name": "ImmutableMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableMultimap' WMC=27 LOC=475 FIELDS=0",
+      "class_name": "ImmutableMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableMultimap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableMultiset' WMC=27 LOC=360 FIELDS=0",
+      "class_name": "ImmutableMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableMultiset.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ImmutableRangeSet' max_method_loc=62",
+      "class_name": "ImmutableRangeSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableRangeSet.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableSetMultimap' ATFD=11 TCC=23 WMC=8",
+      "class_name": "ImmutableSetMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableSetMultimap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableSortedMap' ATFD=11 TCC=20 WMC=10",
+      "class_name": "ImmutableSortedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableSortedMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableSortedMultiset' WMC=16 LOC=446 FIELDS=3",
+      "class_name": "ImmutableSortedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableSortedMultiset.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ImmutableTable' FIELDS=6 WMC=8",
+      "class_name": "ImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableTable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableTable' ATFD=6 TCC=10 WMC=8",
+      "class_name": "ImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ImmutableTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Iterables' WMC=23 LOC=452 FIELDS=0",
+      "class_name": "Iterables",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Iterables.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LinkedHashMultimap' WMC=22 LOC=361 FIELDS=5",
+      "class_name": "LinkedHashMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\LinkedHashMultimap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LinkedListMultimap' WMC=46 LOC=574 FIELDS=3",
+      "class_name": "LinkedListMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\LinkedListMultimap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Lists' max_method_loc=58",
+      "class_name": "Lists",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Lists.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapMakerInternalMap' WMC=79 LOC=2065 FIELDS=16",
+      "class_name": "MapMakerInternalMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\MapMakerInternalMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapMakerInternalMap' ATFD=91 TCC=34 WMC=79",
+      "class_name": "MapMakerInternalMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\MapMakerInternalMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Maps' WMC=137 LOC=2467 FIELDS=6",
+      "class_name": "Maps",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Maps.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MinMaxPriorityQueue' WMC=31 LOC=566 FIELDS=15",
+      "class_name": "MinMaxPriorityQueue",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\MinMaxPriorityQueue.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'MultimapBuilder' FIELDS=6 WMC=6",
+      "class_name": "MultimapBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\MultimapBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Multimaps' WMC=83 LOC=1136 FIELDS=0",
+      "class_name": "Multimaps",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Multimaps.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Multisets' WMC=54 LOC=773 FIELDS=6",
+      "class_name": "Multisets",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Multisets.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Multisets' ATFD=42 TCC=33 WMC=54",
+      "class_name": "Multisets",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Multisets.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ObjectCountHashMap' private=9 total=16",
+      "class_name": "ObjectCountHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ObjectCountHashMap.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ObjectCountLinkedHashMap' private=5 total=6",
+      "class_name": "ObjectCountLinkedHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\ObjectCountLinkedHashMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RegularImmutableMultiset' ATFD=5 TCC=6 WMC=5",
+      "class_name": "RegularImmutableMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\RegularImmutableMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RegularImmutableTable' ATFD=9 TCC=13 WMC=4",
+      "class_name": "RegularImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\RegularImmutableTable.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Sets' max_method_loc=47",
+      "class_name": "Sets",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Sets.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SparseImmutableTable' ATFD=12 TCC=19 WMC=1",
+      "class_name": "SparseImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\SparseImmutableTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'StandardTable' WMC=59 LOC=750 FIELDS=0",
+      "class_name": "StandardTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\StandardTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Streams' WMC=25 LOC=555 FIELDS=0",
+      "class_name": "Streams",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Streams.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TableCollectors' ATFD=6 TCC=16 WMC=3",
+      "class_name": "TableCollectors",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TableCollectors.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Tables' WMC=28 LOC=426 FIELDS=0",
+      "class_name": "Tables",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\Tables.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeMultiset' WMC=39 LOC=850 FIELDS=7",
+      "class_name": "TreeMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TreeMultiset.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'TreeMultiset' private=20 total=39",
+      "class_name": "TreeMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TreeMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeMultiset' ATFD=26 TCC=26 WMC=39",
+      "class_name": "TreeMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TreeMultiset.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeRangeMap' WMC=39 LOC=583 FIELDS=2",
+      "class_name": "TreeRangeMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TreeRangeMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeRangeMap' ATFD=43 TCC=27 WMC=39",
+      "class_name": "TreeRangeMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TreeRangeMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeRangeSet' WMC=30 LOC=734 FIELDS=10",
+      "class_name": "TreeRangeSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TreeRangeSet.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeRangeSet' ATFD=21 TCC=44 WMC=30",
+      "class_name": "TreeRangeSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\collect\\TreeRangeSet.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'UnicodeEscaper' max_method_loc=42",
+      "class_name": "UnicodeEscaper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\escape\\UnicodeEscaper.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'Dispatcher' FIELDS=8 WMC=2",
+      "class_name": "Dispatcher",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\eventbus\\Dispatcher.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EventBus' ATFD=11 TCC=11 WMC=8",
+      "class_name": "EventBus",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\eventbus\\EventBus.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Subscriber' ATFD=5 TCC=4 WMC=4",
+      "class_name": "Subscriber",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\eventbus\\Subscriber.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SubscriberRegistry' ATFD=17 TCC=30 WMC=4",
+      "class_name": "SubscriberRegistry",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\eventbus\\SubscriberRegistry.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractNetwork' max_method_loc=64",
+      "class_name": "AbstractNetwork",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\graph\\AbstractNetwork.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractValueGraph' max_method_loc=52",
+      "class_name": "AbstractValueGraph",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\graph\\AbstractValueGraph.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DirectedGraphConnections' WMC=21 LOC=427 FIELDS=5",
+      "class_name": "DirectedGraphConnections",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\graph\\DirectedGraphConnections.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DirectedGraphConnections' max_method_loc=44",
+      "class_name": "DirectedGraphConnections",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\graph\\DirectedGraphConnections.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractCompositeHashFunction' max_method_loc=109",
+      "class_name": "AbstractCompositeHashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\AbstractCompositeHashFunction.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Crc32cHashFunction' ATFD=4 TCC=4 WMC=6",
+      "class_name": "Crc32cHashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\Crc32cHashFunction.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'FarmHashFingerprint64' max_method_loc=41",
+      "class_name": "FarmHashFingerprint64",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\FarmHashFingerprint64.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'FarmHashFingerprint64' private=7 total=10",
+      "class_name": "FarmHashFingerprint64",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\FarmHashFingerprint64.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'Fingerprint2011' private=4 total=7",
+      "class_name": "Fingerprint2011",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\Fingerprint2011.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LittleEndianByteArray' ATFD=12 TCC=11 WMC=9",
+      "class_name": "LittleEndianByteArray",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\LittleEndianByteArray.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Murmur3_128HashFunction' max_method_loc=43",
+      "class_name": "Murmur3_128HashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\Murmur3_128HashFunction.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Murmur3_32HashFunction' max_method_loc=63",
+      "class_name": "Murmur3_32HashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\Murmur3_32HashFunction.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Striped64' ATFD=8 TCC=12 WMC=2",
+      "class_name": "Striped64",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\hash\\Striped64.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'BaseEncoding' WMC=67 LOC=844 FIELDS=13",
+      "class_name": "BaseEncoding",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\BaseEncoding.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BaseEncoding' max_method_loc=59",
+      "class_name": "BaseEncoding",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\BaseEncoding.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Files' WMC=44 LOC=392 FIELDS=4",
+      "class_name": "Files",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\Files.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'LineReader' FIELDS=5 WMC=1",
+      "class_name": "LineReader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\LineReader.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MoreFiles' WMC=35 LOC=452 FIELDS=6",
+      "class_name": "MoreFiles",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\MoreFiles.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ReaderInputStream' max_method_loc=46",
+      "class_name": "ReaderInputStream",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\ReaderInputStream.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ReaderInputStream' private=5 total=8",
+      "class_name": "ReaderInputStream",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\ReaderInputStream.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'TempFileCreator' private=3 total=5",
+      "class_name": "TempFileCreator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\TempFileCreator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TempFileCreator' ATFD=9 TCC=25 WMC=5",
+      "class_name": "TempFileCreator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\io\\TempFileCreator.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BigIntegerMath' max_method_loc=48",
+      "class_name": "BigIntegerMath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\math\\BigIntegerMath.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'IntMath' max_method_loc=44",
+      "class_name": "IntMath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\math\\IntMath.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'LongMath' max_method_loc=82",
+      "class_name": "LongMath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\math\\LongMath.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Stats' WMC=27 LOC=272 FIELDS=6",
+      "class_name": "Stats",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\math\\Stats.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'InetAddresses' WMC=41 LOC=607 FIELDS=13",
+      "class_name": "InetAddresses",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\net\\InetAddresses.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'InetAddresses' ATFD=31 TCC=23 WMC=41",
+      "class_name": "InetAddresses",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\net\\InetAddresses.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'InternetDomainName' WMC=26 LOC=226 FIELDS=16",
+      "class_name": "InternetDomainName",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\net\\InternetDomainName.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MediaType' WMC=24 LOC=492 FIELDS=17",
+      "class_name": "MediaType",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\net\\MediaType.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'UnsignedBytes' WMC=23 LOC=275 FIELDS=1",
+      "class_name": "UnsignedBytes",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\primitives\\UnsignedBytes.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractInvocationHandler' ATFD=9 TCC=6 WMC=4",
+      "class_name": "AbstractInvocationHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\AbstractInvocationHandler.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ClassPath' WMC=30 LOC=390 FIELDS=8",
+      "class_name": "ClassPath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\ClassPath.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClassPath' ATFD=26 TCC=43 WMC=30",
+      "class_name": "ClassPath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\ClassPath.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Invokable' WMC=31 LOC=317 FIELDS=3",
+      "class_name": "Invokable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\Invokable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Invokable' ATFD=30 TCC=16 WMC=31",
+      "class_name": "Invokable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\Invokable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Reflection' ATFD=4 TCC=5 WMC=3",
+      "class_name": "Reflection",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\Reflection.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TypeResolver' max_method_loc=77",
+      "class_name": "TypeResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\TypeResolver.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'TypeResolver' private=9 total=15",
+      "class_name": "TypeResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\TypeResolver.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeResolver' ATFD=52 TCC=34 WMC=15",
+      "class_name": "TypeResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\TypeResolver.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Types' WMC=25 LOC=512 FIELDS=12",
+      "class_name": "Types",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\Types.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Types' ATFD=38 TCC=42 WMC=25",
+      "class_name": "Types",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\Types.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TypeToken' WMC=47 LOC=887 FIELDS=10",
+      "class_name": "TypeToken",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\TypeToken.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeToken' ATFD=70 TCC=45 WMC=47",
+      "class_name": "TypeToken",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\TypeToken.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeVisitor' ATFD=4 TCC=3 WMC=1",
+      "class_name": "TypeVisitor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\reflect\\TypeVisitor.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractCatchingFuture' max_method_loc=58",
+      "class_name": "AbstractCatchingFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractCatchingFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractFuture' WMC=29 LOC=560 FIELDS=0",
+      "class_name": "AbstractFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFuture.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractFuture' max_method_loc=61",
+      "class_name": "AbstractFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFuture.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AbstractFutureState' private=5 total=5",
+      "class_name": "AbstractFutureState",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFutureState.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractFutureState' ATFD=15 TCC=22 WMC=5",
+      "class_name": "AbstractFutureState",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFutureState.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractService' WMC=40 LOC=432 FIELDS=15",
+      "class_name": "AbstractService",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractService.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractTransformFuture' max_method_loc=44",
+      "class_name": "AbstractTransformFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractTransformFuture.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AggregateFuture' private=7 total=8",
+      "class_name": "AggregateFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\AggregateFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ClosingFuture' WMC=51 LOC=953 FIELDS=23",
+      "class_name": "ClosingFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\ClosingFuture.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClosingFuture' ATFD=38 TCC=36 WMC=51",
+      "class_name": "ClosingFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\ClosingFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CycleDetectingLockFactory' WMC=39 LOC=475 FIELDS=8",
+      "class_name": "CycleDetectingLockFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\CycleDetectingLockFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Futures' ATFD=10 TCC=32 WMC=15",
+      "class_name": "Futures",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\Futures.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FuturesGetChecked' ATFD=6 TCC=15 WMC=3",
+      "class_name": "FuturesGetChecked",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\FuturesGetChecked.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Monitor' max_method_loc=58",
+      "class_name": "Monitor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\Monitor.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MoreExecutors' WMC=32 LOC=530 FIELDS=2",
+      "class_name": "MoreExecutors",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\MoreExecutors.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SequentialExecutor' max_method_loc=49",
+      "class_name": "SequentialExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\SequentialExecutor.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'SimpleTimeLimiter' private=6 total=9",
+      "class_name": "SimpleTimeLimiter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\SimpleTimeLimiter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SimpleTimeLimiter' ATFD=11 TCC=10 WMC=9",
+      "class_name": "SimpleTimeLimiter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\SimpleTimeLimiter.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'SmoothRateLimiter' FIELDS=5 WMC=1",
+      "class_name": "SmoothRateLimiter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\SmoothRateLimiter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TimeoutFuture' ATFD=5 TCC=6 WMC=3",
+      "class_name": "TimeoutFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava\\src\\com\\google\\common\\util\\concurrent\\TimeoutFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMapTester' WMC=27 LOC=172 FIELDS=0",
+      "class_name": "AbstractMapTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\AbstractMapTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CollectionTestSuiteBuilder' ATFD=6 TCC=5 WMC=5",
+      "class_name": "CollectionTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\CollectionTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DerivedCollectionGenerators' WMC=29 LOC=423 FIELDS=8",
+      "class_name": "DerivedCollectionGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\DerivedCollectionGenerators.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FeatureSpecificTestSuiteBuilder' WMC=22 LOC=231 FIELDS=4",
+      "class_name": "FeatureSpecificTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\FeatureSpecificTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FeatureSpecificTestSuiteBuilder' ATFD=14 TCC=22 WMC=22",
+      "class_name": "FeatureSpecificTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\FeatureSpecificTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Helpers' WMC=32 LOC=405 FIELDS=2",
+      "class_name": "Helpers",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\Helpers.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ListTestSuiteBuilder' ATFD=7 TCC=6 WMC=6",
+      "class_name": "ListTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\ListTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapInterfaceTest' WMC=63 LOC=1261 FIELDS=0",
+      "class_name": "MapInterfaceTest",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapInterfaceTest.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapInterfaceTest' max_method_loc=72",
+      "class_name": "MapInterfaceTest",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapInterfaceTest.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapTestSuiteBuilder' max_method_loc=41",
+      "class_name": "MapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapTestSuiteBuilder' ATFD=27 TCC=13 WMC=5",
+      "class_name": "MapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NavigableMapTestSuiteBuilder' ATFD=7 TCC=8 WMC=3",
+      "class_name": "NavigableMapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\NavigableMapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NavigableSetTestSuiteBuilder' ATFD=7 TCC=9 WMC=7",
+      "class_name": "NavigableSetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\NavigableSetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'PerCollectionSizeTestSuiteBuilder' max_method_loc=45",
+      "class_name": "PerCollectionSizeTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\PerCollectionSizeTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'SampleElements' FIELDS=5 WMC=9",
+      "class_name": "SampleElements",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SampleElements.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SetTestSuiteBuilder' ATFD=7 TCC=7 WMC=5",
+      "class_name": "SetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapInterfaceTest' ATFD=6 TCC=5 WMC=3",
+      "class_name": "SortedMapInterfaceTest",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SortedMapInterfaceTest.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapTestSuiteBuilder' ATFD=8 TCC=7 WMC=3",
+      "class_name": "SortedMapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SortedMapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedSetTestSuiteBuilder' ATFD=10 TCC=8 WMC=2",
+      "class_name": "SortedSetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SortedSetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SpliteratorTester' ATFD=4 TCC=12 WMC=6",
+      "class_name": "SpliteratorTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SpliteratorTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TestsForMapsInJavaUtil' WMC=32 LOC=417 FIELDS=0",
+      "class_name": "TestsForMapsInJavaUtil",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\TestsForMapsInJavaUtil.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FeatureUtil' ATFD=11 TCC=19 WMC=7",
+      "class_name": "FeatureUtil",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\features\\FeatureUtil.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractBiMapTester' ATFD=12 TCC=4 WMC=2",
+      "class_name": "AbstractBiMapTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\AbstractBiMapTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BiMapEntrySetTester' ATFD=8 TCC=3 WMC=4",
+      "class_name": "BiMapEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\BiMapEntrySetTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BiMapTestSuiteBuilder' ATFD=21 TCC=10 WMC=1",
+      "class_name": "BiMapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\BiMapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DerivedGoogleCollectionGenerators' ATFD=5 TCC=6 WMC=8",
+      "class_name": "DerivedGoogleCollectionGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\DerivedGoogleCollectionGenerators.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ListMultimapTestSuiteBuilder' ATFD=9 TCC=6 WMC=2",
+      "class_name": "ListMultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\ListMultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapGenerators' ATFD=12 TCC=7 WMC=6",
+      "class_name": "MapGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MapGenerators.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultimapRemoveEntryTester' ATFD=8 TCC=8 WMC=11",
+      "class_name": "MultimapRemoveEntryTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultimapRemoveEntryTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultimapTestSuiteBuilder' WMC=24 LOC=587 FIELDS=5",
+      "class_name": "MultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultimapTestSuiteBuilder' ATFD=77 TCC=27 WMC=24",
+      "class_name": "MultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultisetEntrySetTester' WMC=17 LOC=207 FIELDS=0",
+      "class_name": "MultisetEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetEntrySetTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultisetEntrySetTester' ATFD=19 TCC=11 WMC=17",
+      "class_name": "MultisetEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetEntrySetTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultisetNavigationTester' WMC=63 LOC=551 FIELDS=5",
+      "class_name": "MultisetNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultisetNavigationTester' ATFD=132 TCC=16 WMC=63",
+      "class_name": "MultisetNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultisetTestSuiteBuilder' ATFD=22 TCC=15 WMC=13",
+      "class_name": "MultisetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SetMultimapTestSuiteBuilder' ATFD=13 TCC=5 WMC=2",
+      "class_name": "SetMultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SetMultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapGenerators' ATFD=4 TCC=5 WMC=4",
+      "class_name": "SortedMapGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SortedMapGenerators.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SortedMultisetTestSuiteBuilder' max_method_loc=60",
+      "class_name": "SortedMultisetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SortedMultisetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMultisetTestSuiteBuilder' ATFD=19 TCC=16 WMC=13",
+      "class_name": "SortedMultisetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SortedMultisetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CollectionToArrayTester' WMC=16 LOC=149 FIELDS=0",
+      "class_name": "CollectionToArrayTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\CollectionToArrayTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapEntrySetTester' WMC=18 LOC=158 FIELDS=0",
+      "class_name": "MapEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\MapEntrySetTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapHashCodeTester' ATFD=4 TCC=4 WMC=5",
+      "class_name": "MapHashCodeTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\MapHashCodeTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'NavigableMapNavigationTester' WMC=27 LOC=203 FIELDS=5",
+      "class_name": "NavigableMapNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\NavigableMapNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NavigableMapNavigationTester' ATFD=45 TCC=8 WMC=27",
+      "class_name": "NavigableMapNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\NavigableMapNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapNavigationTester' ATFD=13 TCC=10 WMC=15",
+      "class_name": "SortedMapNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\SortedMapNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractPackageSanityTests' ATFD=11 TCC=30 WMC=8",
+      "class_name": "AbstractPackageSanityTests",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\AbstractPackageSanityTests.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ArbitraryInstances' ATFD=21 TCC=60 WMC=12",
+      "class_name": "ArbitraryInstances",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\ArbitraryInstances.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ClassSanityTester' WMC=19 LOC=562 FIELDS=5",
+      "class_name": "ClassSanityTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\ClassSanityTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClassSanityTester' ATFD=37 TCC=49 WMC=19",
+      "class_name": "ClassSanityTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\ClassSanityTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DummyProxy' ATFD=4 TCC=10 WMC=5",
+      "class_name": "DummyProxy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\DummyProxy.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ForwardingWrapperTester' ATFD=18 TCC=14 WMC=4",
+      "class_name": "ForwardingWrapperTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\ForwardingWrapperTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FreshValueGenerator' ATFD=18 TCC=73 WMC=14",
+      "class_name": "FreshValueGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\FreshValueGenerator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'NullPointerTester' WMC=25 LOC=454 FIELDS=6",
+      "class_name": "NullPointerTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\NullPointerTester.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'NullPointerTester' max_method_loc=41",
+      "class_name": "NullPointerTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\NullPointerTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NullPointerTester' ATFD=54 TCC=38 WMC=25",
+      "class_name": "NullPointerTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\NullPointerTester.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'RelationshipTester' private=4 total=7",
+      "class_name": "RelationshipTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-testlib\\src\\com\\google\\common\\testing\\RelationshipTester.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CharMatcherBenchmark' max_method_loc=720",
+      "class_name": "CharMatcherBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-tests\\benchmark\\com\\google\\common\\base\\CharMatcherBenchmark.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CharMatcherBenchmark' private=6 total=7",
+      "class_name": "CharMatcherBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-tests\\benchmark\\com\\google\\common\\base\\CharMatcherBenchmark.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'StringsRepeatBenchmark' private=3 total=3",
+      "class_name": "StringsRepeatBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-tests\\benchmark\\com\\google\\common\\base\\StringsRepeatBenchmark.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ConcurrentHashMultisetBenchmark' WMC=28 LOC=374 FIELDS=5",
+      "class_name": "ConcurrentHashMultisetBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-tests\\benchmark\\com\\google\\common\\collect\\ConcurrentHashMultisetBenchmark.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MessageDigestAlgorithmBenchmark' ATFD=4 TCC=5 WMC=3",
+      "class_name": "MessageDigestAlgorithmBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-tests\\benchmark\\com\\google\\common\\hash\\MessageDigestAlgorithmBenchmark.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractFutureFootprintBenchmark' max_method_loc=41",
+      "class_name": "AbstractFutureFootprintBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-tests\\benchmark\\com\\google\\common\\util\\concurrent\\AbstractFutureFootprintBenchmark.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ExecutionListBenchmark' WMC=26 LOC=463 FIELDS=8",
+      "class_name": "ExecutionListBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\android\\guava-tests\\benchmark\\com\\google\\common\\util\\concurrent\\ExecutionListBenchmark.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CharMatcher' WMC=135 LOC=1045 FIELDS=16",
+      "class_name": "CharMatcher",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\base\\CharMatcher.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Enums' ATFD=6 TCC=9 WMC=6",
+      "class_name": "Enums",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\base\\Enums.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FinalizableReferenceQueue' ATFD=4 TCC=24 WMC=1",
+      "class_name": "FinalizableReferenceQueue",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\base\\FinalizableReferenceQueue.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MoreObjects' WMC=27 LOC=204 FIELDS=5",
+      "class_name": "MoreObjects",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\base\\MoreObjects.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Throwables' ATFD=13 TCC=14 WMC=12",
+      "class_name": "Throwables",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\base\\Throwables.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Utf8' max_method_loc=41",
+      "class_name": "Utf8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\base\\Utf8.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Finalizer' ATFD=9 TCC=12 WMC=4",
+      "class_name": "Finalizer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\base\\internal\\Finalizer.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LocalCache' WMC=187 LOC=3646 FIELDS=0",
+      "class_name": "LocalCache",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\cache\\LocalCache.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LocalCache' ATFD=224 TCC=77 WMC=187",
+      "class_name": "LocalCache",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\cache\\LocalCache.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractBiMap' WMC=29 LOC=367 FIELDS=2",
+      "class_name": "AbstractBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\AbstractBiMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMapBasedMultimap' WMC=100 LOC=1233 FIELDS=2",
+      "class_name": "AbstractMapBasedMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\AbstractMapBasedMultimap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMapBasedMultiset' WMC=22 LOC=247 FIELDS=2",
+      "class_name": "AbstractMapBasedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\AbstractMapBasedMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractSortedMultiset' ATFD=4 TCC=4 WMC=4",
+      "class_name": "AbstractSortedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\AbstractSortedMultiset.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractTable' WMC=22 LOC=195 FIELDS=0",
+      "class_name": "AbstractTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\AbstractTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CompactHashMap' WMC=42 LOC=823 FIELDS=5",
+      "class_name": "CompactHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\CompactHashMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CompactHashSet' WMC=27 LOC=501 FIELDS=3",
+      "class_name": "CompactHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\CompactHashSet.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CompactHashSet' max_method_loc=52",
+      "class_name": "CompactHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\CompactHashSet.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CompactHashSet' private=14 total=27",
+      "class_name": "CompactHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\CompactHashSet.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CompactLinkedHashMap' private=7 total=10",
+      "class_name": "CompactLinkedHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\CompactLinkedHashMap.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CompactLinkedHashSet' private=6 total=8",
+      "class_name": "CompactLinkedHashSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\CompactLinkedHashSet.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ConcurrentHashMultiset' WMC=26 LOC=375 FIELDS=3",
+      "class_name": "ConcurrentHashMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ConcurrentHashMultiset.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'DenseImmutableTable' FIELDS=13 WMC=3",
+      "class_name": "DenseImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\DenseImmutableTable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DenseImmutableTable' ATFD=4 TCC=9 WMC=3",
+      "class_name": "DenseImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\DenseImmutableTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FilteredEntryMultimap' WMC=25 LOC=346 FIELDS=0",
+      "class_name": "FilteredEntryMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\FilteredEntryMultimap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ForwardingSortedMultiset' ATFD=8 TCC=3 WMC=7",
+      "class_name": "ForwardingSortedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ForwardingSortedMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'GeneralRange' ATFD=16 TCC=5 WMC=3",
+      "class_name": "GeneralRange",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\GeneralRange.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'HashBiMap' max_method_loc=48",
+      "class_name": "HashBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\HashBiMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableBiMap' ATFD=6 TCC=9 WMC=2",
+      "class_name": "ImmutableBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableBiMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableListMultimap' ATFD=7 TCC=17 WMC=6",
+      "class_name": "ImmutableListMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableListMultimap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableMap' WMC=24 LOC=747 FIELDS=3",
+      "class_name": "ImmutableMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableMap' ATFD=17 TCC=33 WMC=24",
+      "class_name": "ImmutableMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableMultimap' WMC=28 LOC=500 FIELDS=0",
+      "class_name": "ImmutableMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableMultimap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableMultiset' WMC=29 LOC=370 FIELDS=2",
+      "class_name": "ImmutableMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableMultiset.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ImmutableRangeSet' max_method_loc=62",
+      "class_name": "ImmutableRangeSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableRangeSet.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableSetMultimap' ATFD=11 TCC=23 WMC=8",
+      "class_name": "ImmutableSetMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableSetMultimap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableSortedMap' ATFD=13 TCC=22 WMC=10",
+      "class_name": "ImmutableSortedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableSortedMap.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ImmutableTable' FIELDS=6 WMC=8",
+      "class_name": "ImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableTable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableTable' ATFD=6 TCC=10 WMC=8",
+      "class_name": "ImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\ImmutableTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Iterables' WMC=32 LOC=471 FIELDS=0",
+      "class_name": "Iterables",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Iterables.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JdkBackedImmutableBiMap' ATFD=8 TCC=7 WMC=2",
+      "class_name": "JdkBackedImmutableBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\JdkBackedImmutableBiMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LinkedHashMultimap' WMC=23 LOC=381 FIELDS=5",
+      "class_name": "LinkedHashMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\LinkedHashMultimap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LinkedListMultimap' WMC=47 LOC=584 FIELDS=3",
+      "class_name": "LinkedListMultimap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\LinkedListMultimap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Lists' max_method_loc=58",
+      "class_name": "Lists",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Lists.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapMakerInternalMap' WMC=79 LOC=2065 FIELDS=16",
+      "class_name": "MapMakerInternalMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\MapMakerInternalMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapMakerInternalMap' ATFD=91 TCC=34 WMC=79",
+      "class_name": "MapMakerInternalMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\MapMakerInternalMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Maps' WMC=152 LOC=2633 FIELDS=6",
+      "class_name": "Maps",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Maps.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MinMaxPriorityQueue' WMC=31 LOC=566 FIELDS=15",
+      "class_name": "MinMaxPriorityQueue",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\MinMaxPriorityQueue.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'MultimapBuilder' FIELDS=6 WMC=6",
+      "class_name": "MultimapBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\MultimapBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Multimaps' WMC=86 LOC=1150 FIELDS=0",
+      "class_name": "Multimaps",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Multimaps.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Multisets' WMC=55 LOC=774 FIELDS=6",
+      "class_name": "Multisets",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Multisets.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Multisets' ATFD=42 TCC=35 WMC=55",
+      "class_name": "Multisets",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Multisets.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RegularImmutableBiMap' ATFD=11 TCC=11 WMC=9",
+      "class_name": "RegularImmutableBiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\RegularImmutableBiMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RegularImmutableMap' ATFD=11 TCC=9 WMC=6",
+      "class_name": "RegularImmutableMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\RegularImmutableMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RegularImmutableMultiset' ATFD=4 TCC=7 WMC=6",
+      "class_name": "RegularImmutableMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\RegularImmutableMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RegularImmutableTable' ATFD=9 TCC=13 WMC=4",
+      "class_name": "RegularImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\RegularImmutableTable.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Sets' max_method_loc=47",
+      "class_name": "Sets",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Sets.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SparseImmutableTable' ATFD=12 TCC=19 WMC=1",
+      "class_name": "SparseImmutableTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\SparseImmutableTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'StandardTable' WMC=59 LOC=778 FIELDS=0",
+      "class_name": "StandardTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\StandardTable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'StandardTable' ATFD=36 TCC=24 WMC=59",
+      "class_name": "StandardTable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\StandardTable.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Streams' WMC=25 LOC=553 FIELDS=0",
+      "class_name": "Streams",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Streams.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TableCollectors' ATFD=6 TCC=16 WMC=3",
+      "class_name": "TableCollectors",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\TableCollectors.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Tables' WMC=28 LOC=441 FIELDS=0",
+      "class_name": "Tables",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\Tables.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeMultiset' WMC=40 LOC=861 FIELDS=7",
+      "class_name": "TreeMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\TreeMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeMultiset' ATFD=29 TCC=27 WMC=40",
+      "class_name": "TreeMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\TreeMultiset.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeRangeMap' WMC=43 LOC=663 FIELDS=2",
+      "class_name": "TreeRangeMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\TreeRangeMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeRangeMap' ATFD=55 TCC=32 WMC=43",
+      "class_name": "TreeRangeMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\TreeRangeMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeRangeSet' WMC=30 LOC=734 FIELDS=10",
+      "class_name": "TreeRangeSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\TreeRangeSet.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeRangeSet' ATFD=21 TCC=44 WMC=30",
+      "class_name": "TreeRangeSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\collect\\TreeRangeSet.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'UnicodeEscaper' max_method_loc=42",
+      "class_name": "UnicodeEscaper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\escape\\UnicodeEscaper.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'Dispatcher' FIELDS=8 WMC=2",
+      "class_name": "Dispatcher",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\eventbus\\Dispatcher.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EventBus' ATFD=11 TCC=11 WMC=8",
+      "class_name": "EventBus",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\eventbus\\EventBus.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Subscriber' ATFD=5 TCC=4 WMC=4",
+      "class_name": "Subscriber",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\eventbus\\Subscriber.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SubscriberRegistry' ATFD=17 TCC=30 WMC=4",
+      "class_name": "SubscriberRegistry",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\eventbus\\SubscriberRegistry.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractNetwork' max_method_loc=64",
+      "class_name": "AbstractNetwork",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\graph\\AbstractNetwork.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractValueGraph' max_method_loc=52",
+      "class_name": "AbstractValueGraph",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\graph\\AbstractValueGraph.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DirectedGraphConnections' WMC=21 LOC=427 FIELDS=5",
+      "class_name": "DirectedGraphConnections",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\graph\\DirectedGraphConnections.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DirectedGraphConnections' max_method_loc=44",
+      "class_name": "DirectedGraphConnections",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\graph\\DirectedGraphConnections.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractCompositeHashFunction' max_method_loc=109",
+      "class_name": "AbstractCompositeHashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\AbstractCompositeHashFunction.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Crc32cHashFunction' ATFD=4 TCC=4 WMC=6",
+      "class_name": "Crc32cHashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\Crc32cHashFunction.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'FarmHashFingerprint64' max_method_loc=41",
+      "class_name": "FarmHashFingerprint64",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\FarmHashFingerprint64.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'FarmHashFingerprint64' private=7 total=10",
+      "class_name": "FarmHashFingerprint64",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\FarmHashFingerprint64.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'Fingerprint2011' private=4 total=7",
+      "class_name": "Fingerprint2011",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\Fingerprint2011.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LittleEndianByteArray' ATFD=12 TCC=14 WMC=12",
+      "class_name": "LittleEndianByteArray",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\LittleEndianByteArray.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Murmur3_128HashFunction' max_method_loc=43",
+      "class_name": "Murmur3_128HashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\Murmur3_128HashFunction.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Murmur3_32HashFunction' max_method_loc=63",
+      "class_name": "Murmur3_32HashFunction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\hash\\Murmur3_32HashFunction.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'BaseEncoding' WMC=67 LOC=844 FIELDS=13",
+      "class_name": "BaseEncoding",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\BaseEncoding.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BaseEncoding' max_method_loc=59",
+      "class_name": "BaseEncoding",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\BaseEncoding.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Files' WMC=44 LOC=392 FIELDS=4",
+      "class_name": "Files",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\Files.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'LineReader' FIELDS=5 WMC=1",
+      "class_name": "LineReader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\LineReader.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MoreFiles' WMC=35 LOC=449 FIELDS=6",
+      "class_name": "MoreFiles",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\MoreFiles.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ReaderInputStream' max_method_loc=46",
+      "class_name": "ReaderInputStream",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\ReaderInputStream.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ReaderInputStream' private=5 total=8",
+      "class_name": "ReaderInputStream",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\ReaderInputStream.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'TempFileCreator' private=3 total=5",
+      "class_name": "TempFileCreator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\TempFileCreator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TempFileCreator' ATFD=9 TCC=25 WMC=5",
+      "class_name": "TempFileCreator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\io\\TempFileCreator.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BigIntegerMath' max_method_loc=48",
+      "class_name": "BigIntegerMath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\math\\BigIntegerMath.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'IntMath' max_method_loc=44",
+      "class_name": "IntMath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\math\\IntMath.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'LongMath' max_method_loc=82",
+      "class_name": "LongMath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\math\\LongMath.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Stats' WMC=27 LOC=268 FIELDS=6",
+      "class_name": "Stats",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\math\\Stats.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'InetAddresses' WMC=41 LOC=607 FIELDS=13",
+      "class_name": "InetAddresses",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\net\\InetAddresses.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'InetAddresses' ATFD=31 TCC=23 WMC=41",
+      "class_name": "InetAddresses",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\net\\InetAddresses.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'InternetDomainName' WMC=26 LOC=226 FIELDS=16",
+      "class_name": "InternetDomainName",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\net\\InternetDomainName.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MediaType' WMC=24 LOC=492 FIELDS=17",
+      "class_name": "MediaType",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\net\\MediaType.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'UnsignedBytes' WMC=24 LOC=310 FIELDS=1",
+      "class_name": "UnsignedBytes",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\primitives\\UnsignedBytes.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractInvocationHandler' ATFD=9 TCC=6 WMC=4",
+      "class_name": "AbstractInvocationHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\AbstractInvocationHandler.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ClassPath' WMC=30 LOC=390 FIELDS=8",
+      "class_name": "ClassPath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\ClassPath.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClassPath' ATFD=26 TCC=43 WMC=30",
+      "class_name": "ClassPath",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\ClassPath.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Invokable' WMC=34 LOC=336 FIELDS=3",
+      "class_name": "Invokable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\Invokable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Invokable' ATFD=34 TCC=16 WMC=34",
+      "class_name": "Invokable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\Invokable.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Reflection' ATFD=4 TCC=5 WMC=3",
+      "class_name": "Reflection",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\Reflection.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TypeResolver' max_method_loc=77",
+      "class_name": "TypeResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\TypeResolver.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'TypeResolver' private=9 total=15",
+      "class_name": "TypeResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\TypeResolver.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeResolver' ATFD=52 TCC=34 WMC=15",
+      "class_name": "TypeResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\TypeResolver.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Types' WMC=25 LOC=510 FIELDS=12",
+      "class_name": "Types",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\Types.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Types' ATFD=38 TCC=42 WMC=25",
+      "class_name": "Types",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\Types.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TypeToken' WMC=47 LOC=887 FIELDS=10",
+      "class_name": "TypeToken",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\TypeToken.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeToken' ATFD=70 TCC=45 WMC=47",
+      "class_name": "TypeToken",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\TypeToken.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeVisitor' ATFD=4 TCC=3 WMC=1",
+      "class_name": "TypeVisitor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\reflect\\TypeVisitor.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractCatchingFuture' max_method_loc=58",
+      "class_name": "AbstractCatchingFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractCatchingFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractFuture' WMC=29 LOC=560 FIELDS=0",
+      "class_name": "AbstractFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFuture.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractFuture' max_method_loc=61",
+      "class_name": "AbstractFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFuture.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AbstractFutureState' private=5 total=5",
+      "class_name": "AbstractFutureState",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFutureState.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractFutureState' ATFD=20 TCC=26 WMC=5",
+      "class_name": "AbstractFutureState",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractFutureState.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractService' WMC=42 LOC=441 FIELDS=15",
+      "class_name": "AbstractService",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractService.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractTransformFuture' max_method_loc=44",
+      "class_name": "AbstractTransformFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AbstractTransformFuture.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AggregateFuture' private=7 total=8",
+      "class_name": "AggregateFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\AggregateFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ClosingFuture' WMC=51 LOC=968 FIELDS=23",
+      "class_name": "ClosingFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\ClosingFuture.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClosingFuture' ATFD=38 TCC=36 WMC=51",
+      "class_name": "ClosingFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\ClosingFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CycleDetectingLockFactory' WMC=39 LOC=475 FIELDS=8",
+      "class_name": "CycleDetectingLockFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\CycleDetectingLockFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Futures' ATFD=10 TCC=32 WMC=15",
+      "class_name": "Futures",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\Futures.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FuturesGetChecked' ATFD=8 TCC=19 WMC=5",
+      "class_name": "FuturesGetChecked",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\FuturesGetChecked.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Monitor' max_method_loc=58",
+      "class_name": "Monitor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\Monitor.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MoreExecutors' WMC=32 LOC=525 FIELDS=2",
+      "class_name": "MoreExecutors",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\MoreExecutors.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SequentialExecutor' max_method_loc=49",
+      "class_name": "SequentialExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\SequentialExecutor.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'SimpleTimeLimiter' private=6 total=9",
+      "class_name": "SimpleTimeLimiter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\SimpleTimeLimiter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SimpleTimeLimiter' ATFD=11 TCC=10 WMC=9",
+      "class_name": "SimpleTimeLimiter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\SimpleTimeLimiter.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'SmoothRateLimiter' FIELDS=5 WMC=1",
+      "class_name": "SmoothRateLimiter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\SmoothRateLimiter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TimeoutFuture' ATFD=5 TCC=6 WMC=3",
+      "class_name": "TimeoutFuture",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava\\src\\com\\google\\common\\util\\concurrent\\TimeoutFuture.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LocalCache' WMC=64 LOC=640 FIELDS=14",
+      "class_name": "LocalCache",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-gwt\\src-super\\com\\google\\common\\cache\\super\\com\\google\\common\\cache\\LocalCache.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractSortedMultiset' ATFD=4 TCC=4 WMC=4",
+      "class_name": "AbstractSortedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-gwt\\src-super\\com\\google\\common\\collect\\super\\com\\google\\common\\collect\\AbstractSortedMultiset.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ForwardingSortedMultiset' ATFD=8 TCC=3 WMC=7",
+      "class_name": "ForwardingSortedMultiset",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-gwt\\src-super\\com\\google\\common\\collect\\super\\com\\google\\common\\collect\\ForwardingSortedMultiset.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ImmutableMap' WMC=19 LOC=479 FIELDS=0",
+      "class_name": "ImmutableMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-gwt\\src-super\\com\\google\\common\\collect\\super\\com\\google\\common\\collect\\ImmutableMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableMap' ATFD=12 TCC=18 WMC=19",
+      "class_name": "ImmutableMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-gwt\\src-super\\com\\google\\common\\collect\\super\\com\\google\\common\\collect\\ImmutableMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ImmutableSortedMap' ATFD=4 TCC=12 WMC=1",
+      "class_name": "ImmutableSortedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-gwt\\src-super\\com\\google\\common\\collect\\super\\com\\google\\common\\collect\\ImmutableSortedMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMapTester' WMC=27 LOC=172 FIELDS=0",
+      "class_name": "AbstractMapTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\AbstractMapTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CollectionTestSuiteBuilder' ATFD=6 TCC=5 WMC=5",
+      "class_name": "CollectionTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\CollectionTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DerivedCollectionGenerators' WMC=29 LOC=423 FIELDS=8",
+      "class_name": "DerivedCollectionGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\DerivedCollectionGenerators.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FeatureSpecificTestSuiteBuilder' WMC=22 LOC=231 FIELDS=4",
+      "class_name": "FeatureSpecificTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\FeatureSpecificTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FeatureSpecificTestSuiteBuilder' ATFD=14 TCC=22 WMC=22",
+      "class_name": "FeatureSpecificTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\FeatureSpecificTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Helpers' WMC=32 LOC=405 FIELDS=2",
+      "class_name": "Helpers",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\Helpers.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ListTestSuiteBuilder' ATFD=7 TCC=6 WMC=6",
+      "class_name": "ListTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\ListTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapInterfaceTest' WMC=63 LOC=1261 FIELDS=0",
+      "class_name": "MapInterfaceTest",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapInterfaceTest.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapInterfaceTest' max_method_loc=72",
+      "class_name": "MapInterfaceTest",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapInterfaceTest.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapTestSuiteBuilder' max_method_loc=41",
+      "class_name": "MapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapTestSuiteBuilder' ATFD=27 TCC=13 WMC=5",
+      "class_name": "MapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\MapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NavigableMapTestSuiteBuilder' ATFD=7 TCC=8 WMC=3",
+      "class_name": "NavigableMapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\NavigableMapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NavigableSetTestSuiteBuilder' ATFD=7 TCC=9 WMC=7",
+      "class_name": "NavigableSetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\NavigableSetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'PerCollectionSizeTestSuiteBuilder' max_method_loc=45",
+      "class_name": "PerCollectionSizeTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\PerCollectionSizeTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'SampleElements' FIELDS=5 WMC=9",
+      "class_name": "SampleElements",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SampleElements.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SetTestSuiteBuilder' ATFD=7 TCC=7 WMC=5",
+      "class_name": "SetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapInterfaceTest' ATFD=6 TCC=5 WMC=3",
+      "class_name": "SortedMapInterfaceTest",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SortedMapInterfaceTest.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapTestSuiteBuilder' ATFD=8 TCC=7 WMC=3",
+      "class_name": "SortedMapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SortedMapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedSetTestSuiteBuilder' ATFD=10 TCC=8 WMC=2",
+      "class_name": "SortedSetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SortedSetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SpliteratorTester' ATFD=4 TCC=12 WMC=6",
+      "class_name": "SpliteratorTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\SpliteratorTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TestsForMapsInJavaUtil' WMC=42 LOC=525 FIELDS=0",
+      "class_name": "TestsForMapsInJavaUtil",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\TestsForMapsInJavaUtil.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FeatureUtil' ATFD=11 TCC=19 WMC=7",
+      "class_name": "FeatureUtil",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\features\\FeatureUtil.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractBiMapTester' ATFD=12 TCC=4 WMC=2",
+      "class_name": "AbstractBiMapTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\AbstractBiMapTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BiMapEntrySetTester' ATFD=8 TCC=3 WMC=4",
+      "class_name": "BiMapEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\BiMapEntrySetTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BiMapTestSuiteBuilder' ATFD=21 TCC=10 WMC=1",
+      "class_name": "BiMapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\BiMapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DerivedGoogleCollectionGenerators' ATFD=5 TCC=6 WMC=8",
+      "class_name": "DerivedGoogleCollectionGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\DerivedGoogleCollectionGenerators.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ListMultimapTestSuiteBuilder' ATFD=9 TCC=6 WMC=2",
+      "class_name": "ListMultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\ListMultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapGenerators' ATFD=12 TCC=7 WMC=6",
+      "class_name": "MapGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MapGenerators.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultimapRemoveEntryTester' ATFD=8 TCC=8 WMC=11",
+      "class_name": "MultimapRemoveEntryTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultimapRemoveEntryTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultimapTestSuiteBuilder' WMC=24 LOC=588 FIELDS=5",
+      "class_name": "MultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultimapTestSuiteBuilder' ATFD=77 TCC=27 WMC=24",
+      "class_name": "MultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultisetEntrySetTester' WMC=17 LOC=207 FIELDS=0",
+      "class_name": "MultisetEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetEntrySetTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultisetEntrySetTester' ATFD=19 TCC=11 WMC=17",
+      "class_name": "MultisetEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetEntrySetTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultisetNavigationTester' WMC=63 LOC=551 FIELDS=5",
+      "class_name": "MultisetNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultisetNavigationTester' ATFD=132 TCC=16 WMC=63",
+      "class_name": "MultisetNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultisetTestSuiteBuilder' ATFD=22 TCC=15 WMC=13",
+      "class_name": "MultisetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\MultisetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SetMultimapTestSuiteBuilder' ATFD=13 TCC=5 WMC=2",
+      "class_name": "SetMultimapTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SetMultimapTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapGenerators' ATFD=4 TCC=5 WMC=4",
+      "class_name": "SortedMapGenerators",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SortedMapGenerators.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SortedMultisetTestSuiteBuilder' max_method_loc=60",
+      "class_name": "SortedMultisetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SortedMultisetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMultisetTestSuiteBuilder' ATFD=19 TCC=16 WMC=13",
+      "class_name": "SortedMultisetTestSuiteBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\google\\SortedMultisetTestSuiteBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CollectionToArrayTester' WMC=16 LOC=149 FIELDS=0",
+      "class_name": "CollectionToArrayTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\CollectionToArrayTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapEntrySetTester' WMC=18 LOC=158 FIELDS=0",
+      "class_name": "MapEntrySetTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\MapEntrySetTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapHashCodeTester' ATFD=4 TCC=4 WMC=5",
+      "class_name": "MapHashCodeTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\MapHashCodeTester.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'NavigableMapNavigationTester' WMC=27 LOC=203 FIELDS=5",
+      "class_name": "NavigableMapNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\NavigableMapNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NavigableMapNavigationTester' ATFD=45 TCC=8 WMC=27",
+      "class_name": "NavigableMapNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\NavigableMapNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SortedMapNavigationTester' ATFD=13 TCC=10 WMC=15",
+      "class_name": "SortedMapNavigationTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\collect\\testing\\testers\\SortedMapNavigationTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractPackageSanityTests' ATFD=11 TCC=30 WMC=8",
+      "class_name": "AbstractPackageSanityTests",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\AbstractPackageSanityTests.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ArbitraryInstances' ATFD=21 TCC=64 WMC=12",
+      "class_name": "ArbitraryInstances",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\ArbitraryInstances.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ClassSanityTester' WMC=19 LOC=562 FIELDS=5",
+      "class_name": "ClassSanityTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\ClassSanityTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClassSanityTester' ATFD=37 TCC=49 WMC=19",
+      "class_name": "ClassSanityTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\ClassSanityTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DummyProxy' ATFD=4 TCC=10 WMC=5",
+      "class_name": "DummyProxy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\DummyProxy.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ForwardingWrapperTester' ATFD=18 TCC=14 WMC=4",
+      "class_name": "ForwardingWrapperTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\ForwardingWrapperTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FreshValueGenerator' ATFD=18 TCC=76 WMC=14",
+      "class_name": "FreshValueGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\FreshValueGenerator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'NullPointerTester' WMC=25 LOC=466 FIELDS=6",
+      "class_name": "NullPointerTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\NullPointerTester.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NullPointerTester' ATFD=59 TCC=40 WMC=25",
+      "class_name": "NullPointerTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\NullPointerTester.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'RelationshipTester' private=4 total=7",
+      "class_name": "RelationshipTester",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-testlib\\src\\com\\google\\common\\testing\\RelationshipTester.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CharMatcherBenchmark' max_method_loc=720",
+      "class_name": "CharMatcherBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-tests\\benchmark\\com\\google\\common\\base\\CharMatcherBenchmark.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'CharMatcherBenchmark' private=6 total=7",
+      "class_name": "CharMatcherBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-tests\\benchmark\\com\\google\\common\\base\\CharMatcherBenchmark.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'StringsRepeatBenchmark' private=3 total=3",
+      "class_name": "StringsRepeatBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-tests\\benchmark\\com\\google\\common\\base\\StringsRepeatBenchmark.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ConcurrentHashMultisetBenchmark' WMC=28 LOC=374 FIELDS=5",
+      "class_name": "ConcurrentHashMultisetBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-tests\\benchmark\\com\\google\\common\\collect\\ConcurrentHashMultisetBenchmark.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MessageDigestAlgorithmBenchmark' ATFD=4 TCC=5 WMC=3",
+      "class_name": "MessageDigestAlgorithmBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-tests\\benchmark\\com\\google\\common\\hash\\MessageDigestAlgorithmBenchmark.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractFutureFootprintBenchmark' max_method_loc=41",
+      "class_name": "AbstractFutureFootprintBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-tests\\benchmark\\com\\google\\common\\util\\concurrent\\AbstractFutureFootprintBenchmark.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ExecutionListBenchmark' WMC=26 LOC=463 FIELDS=8",
+      "class_name": "ExecutionListBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava\\guava-tests\\benchmark\\com\\google\\common\\util\\concurrent\\ExecutionListBenchmark.java"
+    }
+  ]
+}

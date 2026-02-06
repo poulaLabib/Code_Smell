@@ -1,0 +1,95 @@
+{
+  "total": 10,
+  "issues": [
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'FormatterBcjava1' private=4 total=5",
+      "class_name": "FormatterBcjava1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v1\\FormatterBcjava1.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ParserBcjava7' max_method_loc=82",
+      "class_name": "ParserBcjava7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v1\\ParserBcjava7.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SchedulerBcjava8' max_method_loc=78",
+      "class_name": "SchedulerBcjava8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v1\\SchedulerBcjava8.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ManagerBcjava2' ATFD=9 TCC=1 WMC=1",
+      "class_name": "ManagerBcjava2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v2\\ManagerBcjava2.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ServiceBcjava10' FIELDS=13 WMC=26",
+      "class_name": "ServiceBcjava10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v2\\ServiceBcjava10.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ApplicationBcjava12' WMC=20 LOC=197 FIELDS=25",
+      "class_name": "ApplicationBcjava12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v3\\ApplicationBcjava12.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ControllerBcjava6' FIELDS=8 WMC=16",
+      "class_name": "ControllerBcjava6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v3\\ControllerBcjava6.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CoordinatorBcjava11' ATFD=13 TCC=1 WMC=1",
+      "class_name": "CoordinatorBcjava11",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v3\\CoordinatorBcjava11.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'OrchestratorBcjava9' private=4 total=5",
+      "class_name": "OrchestratorBcjava9",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v3\\OrchestratorBcjava9.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ServiceBcjava13' ATFD=10 TCC=1 WMC=1",
+      "class_name": "ServiceBcjava13",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\bc-java-sim\\src\\main\\java\\bc\\java\\v3\\ServiceBcjava13.java"
+    }
+  ]
+}

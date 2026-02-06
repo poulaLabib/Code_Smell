@@ -1,0 +1,392 @@
+{
+  "total": 43,
+  "issues": [
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CollectionUtils' WMC=24 LOC=789 FIELDS=3",
+      "class_name": "CollectionUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\CollectionUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'IteratorUtils' ATFD=4 TCC=28 WMC=5",
+      "class_name": "IteratorUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\IteratorUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapUtils' max_method_loc=45",
+      "class_name": "MapUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\MapUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapUtils' ATFD=15 TCC=41 WMC=7",
+      "class_name": "MapUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\MapUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMapBag' WMC=26 LOC=344 FIELDS=10",
+      "class_name": "AbstractMapBag",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bag\\AbstractMapBag.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractDualBidiMap' WMC=45 LOC=463 FIELDS=4",
+      "class_name": "AbstractDualBidiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bidimap\\AbstractDualBidiMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DualTreeBidiMap' WMC=20 LOC=256 FIELDS=4",
+      "class_name": "DualTreeBidiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bidimap\\DualTreeBidiMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeBidiMap' WMC=110 LOC=1245 FIELDS=24",
+      "class_name": "TreeBidiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bidimap\\TreeBidiMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TreeBidiMap' max_method_loc=72",
+      "class_name": "TreeBidiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bidimap\\TreeBidiMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeBidiMap' ATFD=165 TCC=31 WMC=110",
+      "class_name": "TreeBidiMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bidimap\\TreeBidiMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'EnhancedDoubleHasher' max_method_loc=52",
+      "class_name": "EnhancedDoubleHasher",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bloomfilter\\EnhancedDoubleHasher.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LayeredBloomFilter' WMC=32 LOC=170 FIELDS=2",
+      "class_name": "LayeredBloomFilter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\bloomfilter\\LayeredBloomFilter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'InvokerTransformer' ATFD=5 TCC=5 WMC=1",
+      "class_name": "InvokerTransformer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\functors\\InvokerTransformer.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PrototypeFactory' ATFD=6 TCC=7 WMC=3",
+      "class_name": "PrototypeFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\functors\\PrototypeFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EntrySetMapIterator' ATFD=6 TCC=4 WMC=8",
+      "class_name": "EntrySetMapIterator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\iterators\\EntrySetMapIterator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DefaultKeyValue' ATFD=8 TCC=3 WMC=4",
+      "class_name": "DefaultKeyValue",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\keyvalue\\DefaultKeyValue.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'UnmodifiableMapEntry' ATFD=4 TCC=2 WMC=1",
+      "class_name": "UnmodifiableMapEntry",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\keyvalue\\UnmodifiableMapEntry.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractLinkedList' WMC=81 LOC=634 FIELDS=0",
+      "class_name": "AbstractLinkedList",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\list\\AbstractLinkedList.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractLinkedListJava21' WMC=81 LOC=631 FIELDS=0",
+      "class_name": "AbstractLinkedListJava21",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\list\\AbstractLinkedListJava21.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TreeList' WMC=46 LOC=606 FIELDS=15",
+      "class_name": "TreeList",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\list\\TreeList.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TreeList' max_method_loc=69",
+      "class_name": "TreeList",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\list\\TreeList.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractHashedMap' WMC=66 LOC=743 FIELDS=6",
+      "class_name": "AbstractHashedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\AbstractHashedMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractLinkedMap' WMC=25 LOC=315 FIELDS=0",
+      "class_name": "AbstractLinkedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\AbstractLinkedMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractReferenceMap' WMC=49 LOC=570 FIELDS=7",
+      "class_name": "AbstractReferenceMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\AbstractReferenceMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ConcurrentReferenceHashMap' WMC=68 LOC=1097 FIELDS=48",
+      "class_name": "ConcurrentReferenceHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\ConcurrentReferenceHashMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ConcurrentReferenceHashMap' max_method_loc=43",
+      "class_name": "ConcurrentReferenceHashMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\ConcurrentReferenceHashMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Flat3Map' WMC=47 LOC=933 FIELDS=22",
+      "class_name": "Flat3Map",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\Flat3Map.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Flat3Map' max_method_loc=141",
+      "class_name": "Flat3Map",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\Flat3Map.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ListOrderedMap' WMC=58 LOC=446 FIELDS=14",
+      "class_name": "ListOrderedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\ListOrderedMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultiKeyMap' WMC=33 LOC=458 FIELDS=1",
+      "class_name": "MultiKeyMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\MultiKeyMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MultiKeyMap' ATFD=40 TCC=13 WMC=33",
+      "class_name": "MultiKeyMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\MultiKeyMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MultiValueMap' WMC=26 LOC=277 FIELDS=7",
+      "class_name": "MultiValueMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\MultiValueMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'SingletonMap' WMC=40 LOC=292 FIELDS=7",
+      "class_name": "SingletonMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\SingletonMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'StaticBucketMap' WMC=37 LOC=403 FIELDS=6",
+      "class_name": "StaticBucketMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\map\\StaticBucketMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMultiValuedMap' WMC=73 LOC=600 FIELDS=10",
+      "class_name": "AbstractMultiValuedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\multimap\\AbstractMultiValuedMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TransformedMultiValuedMap' ATFD=4 TCC=9 WMC=6",
+      "class_name": "TransformedMultiValuedMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\multimap\\TransformedMultiValuedMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMapMultiSet' WMC=29 LOC=330 FIELDS=9",
+      "class_name": "AbstractMapMultiSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\multiset\\AbstractMapMultiSet.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractMultiSet' WMC=39 LOC=295 FIELDS=8",
+      "class_name": "AbstractMultiSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\multiset\\AbstractMultiSet.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CircularFifoQueue' max_method_loc=51",
+      "class_name": "CircularFifoQueue",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\queue\\CircularFifoQueue.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SequencesComparator' max_method_loc=49",
+      "class_name": "SequencesComparator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\sequence\\SequencesComparator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SequencesComparator' ATFD=12 TCC=8 WMC=7",
+      "class_name": "SequencesComparator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\sequence\\SequencesComparator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractPatriciaTrie' WMC=89 LOC=1497 FIELDS=34",
+      "class_name": "AbstractPatriciaTrie",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\trie\\AbstractPatriciaTrie.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractPatriciaTrie' max_method_loc=50",
+      "class_name": "AbstractPatriciaTrie",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-collections\\src\\main\\java\\org\\apache\\commons\\collections4\\trie\\AbstractPatriciaTrie.java"
+    }
+  ]
+}

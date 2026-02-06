@@ -1,0 +1,104 @@
+{
+  "total": 11,
+  "issues": [
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ExecutorMaven13' ATFD=13 TCC=1 WMC=1",
+      "class_name": "ExecutorMaven13",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v1\\ExecutorMaven13.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ExecutorMaven5' FIELDS=6 WMC=12",
+      "class_name": "ExecutorMaven5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v1\\ExecutorMaven5.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ManagerMaven6' private=6 total=7",
+      "class_name": "ManagerMaven6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v1\\ManagerMaven6.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ServiceMaven16' FIELDS=10 WMC=20",
+      "class_name": "ServiceMaven16",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v1\\ServiceMaven16.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BuilderMaven12' max_method_loc=72",
+      "class_name": "BuilderMaven12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v2\\BuilderMaven12.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ApplicationMaven4' WMC=20 LOC=187 FIELDS=27",
+      "class_name": "ApplicationMaven4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v3\\ApplicationMaven4.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ControllerMaven2' private=3 total=4",
+      "class_name": "ControllerMaven2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v3\\ControllerMaven2.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'FormatterMaven11' FIELDS=6 WMC=12",
+      "class_name": "FormatterMaven11",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v3\\FormatterMaven11.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'HandlerMaven3' private=5 total=6",
+      "class_name": "HandlerMaven3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v3\\HandlerMaven3.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RegistryMaven8' ATFD=12 TCC=1 WMC=1",
+      "class_name": "RegistryMaven8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v3\\RegistryMaven8.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ValidatorMaven15' FIELDS=11 WMC=22",
+      "class_name": "ValidatorMaven15",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\maven-sim\\src\\main\\java\\maven\\v3\\ValidatorMaven15.java"
+    }
+  ]
+}

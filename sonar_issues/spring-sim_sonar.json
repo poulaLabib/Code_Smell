@@ -1,0 +1,113 @@
+{
+  "total": 12,
+  "issues": [
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'AdapterSpring15' FIELDS=8 WMC=16",
+      "class_name": "AdapterSpring15",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v1\\AdapterSpring15.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CalculatorSpring9' max_method_loc=81",
+      "class_name": "CalculatorSpring9",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v1\\CalculatorSpring9.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ControllerSpring7' private=4 total=5",
+      "class_name": "ControllerSpring7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v1\\ControllerSpring7.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DispatcherSpring10' ATFD=12 TCC=1 WMC=1",
+      "class_name": "DispatcherSpring10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v1\\DispatcherSpring10.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ServiceSpring4' private=4 total=5",
+      "class_name": "ServiceSpring4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v1\\ServiceSpring4.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ExecutorSpring1' WMC=21 LOC=197 FIELDS=28",
+      "class_name": "ExecutorSpring1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v2\\ExecutorSpring1.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'FormatterSpring8' FIELDS=10 WMC=20",
+      "class_name": "FormatterSpring8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v2\\FormatterSpring8.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ResolverSpring3' WMC=19 LOC=182 FIELDS=27",
+      "class_name": "ResolverSpring3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v2\\ResolverSpring3.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'FactorySpring16' private=6 total=7",
+      "class_name": "FactorySpring16",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v3\\FactorySpring16.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'FormatterSpring6' private=3 total=4",
+      "class_name": "FormatterSpring6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v3\\FormatterSpring6.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ManagerSpring2' max_method_loc=71",
+      "class_name": "ManagerSpring2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v3\\ManagerSpring2.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ResolverSpring5' FIELDS=9 WMC=18",
+      "class_name": "ResolverSpring5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\spring-sim\\src\\main\\java\\spring\\v3\\ResolverSpring5.java"
+    }
+  ]
+}

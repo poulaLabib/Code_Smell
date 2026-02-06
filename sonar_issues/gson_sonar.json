@@ -1,0 +1,527 @@
+{
+  "total": 58,
+  "issues": [
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'GraphAdapterBuilder' max_method_loc=42",
+      "class_name": "GraphAdapterBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\extras\\src\\main\\java\\com\\google\\gson\\graph\\GraphAdapterBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PostConstructAdapterFactory' ATFD=9 TCC=7 WMC=2",
+      "class_name": "PostConstructAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\extras\\src\\main\\java\\com\\google\\gson\\typeadapters\\PostConstructAdapterFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RuntimeTypeAdapterFactory' ATFD=15 TCC=19 WMC=5",
+      "class_name": "RuntimeTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\extras\\src\\main\\java\\com\\google\\gson\\typeadapters\\RuntimeTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'UtcDateTypeAdapter' max_method_loc=73",
+      "class_name": "UtcDateTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\extras\\src\\main\\java\\com\\google\\gson\\typeadapters\\UtcDateTypeAdapter.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'UtcDateTypeAdapter' private=5 total=7",
+      "class_name": "UtcDateTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\extras\\src\\main\\java\\com\\google\\gson\\typeadapters\\UtcDateTypeAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'UtcDateTypeAdapter' ATFD=13 TCC=16 WMC=7",
+      "class_name": "UtcDateTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\extras\\src\\main\\java\\com\\google\\gson\\typeadapters\\UtcDateTypeAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FieldAttributes' ATFD=7 TCC=2 WMC=5",
+      "class_name": "FieldAttributes",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\FieldAttributes.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FieldNamingPolicy' ATFD=7 TCC=5 WMC=7",
+      "class_name": "FieldNamingPolicy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\FieldNamingPolicy.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Gson' WMC=24 LOC=442 FIELDS=4",
+      "class_name": "Gson",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\Gson.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Gson' ATFD=42 TCC=26 WMC=24",
+      "class_name": "Gson",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\Gson.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JsonParser' ATFD=6 TCC=6 WMC=6",
+      "class_name": "JsonParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\JsonParser.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'JsonPrimitive' WMC=19 LOC=167 FIELDS=1",
+      "class_name": "JsonPrimitive",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\JsonPrimitive.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ConstructorConstructor' ATFD=13 TCC=15 WMC=4",
+      "class_name": "ConstructorConstructor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\ConstructorConstructor.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'GsonTypes' WMC=34 LOC=476 FIELDS=9",
+      "class_name": "GsonTypes",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\GsonTypes.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'GsonTypes' max_method_loc=85",
+      "class_name": "GsonTypes",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\GsonTypes.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'GsonTypes' ATFD=44 TCC=35 WMC=34",
+      "class_name": "GsonTypes",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\GsonTypes.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'JavaVersion' private=3 total=5",
+      "class_name": "JavaVersion",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\JavaVersion.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LinkedTreeMap' WMC=33 LOC=500 FIELDS=4",
+      "class_name": "LinkedTreeMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\LinkedTreeMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'LinkedTreeMap' max_method_loc=53",
+      "class_name": "LinkedTreeMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\LinkedTreeMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'UnsafeAllocator' max_method_loc=60",
+      "class_name": "UnsafeAllocator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\UnsafeAllocator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'UnsafeAllocator' ATFD=9 TCC=8 WMC=2",
+      "class_name": "UnsafeAllocator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\UnsafeAllocator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ArrayTypeAdapter' ATFD=5 TCC=10 WMC=2",
+      "class_name": "ArrayTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\ArrayTypeAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CollectionTypeAdapterFactory' ATFD=4 TCC=11 WMC=2",
+      "class_name": "CollectionTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\CollectionTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DefaultDateTypeAdapter' ATFD=10 TCC=13 WMC=10",
+      "class_name": "DefaultDateTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\DefaultDateTypeAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EnumTypeAdapter' ATFD=5 TCC=14 WMC=3",
+      "class_name": "EnumTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\EnumTypeAdapter.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'JavaTimeTypeAdapters' max_method_loc=50",
+      "class_name": "JavaTimeTypeAdapters",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JavaTimeTypeAdapters.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JavaTimeTypeAdapters' ATFD=35 TCC=35 WMC=15",
+      "class_name": "JavaTimeTypeAdapters",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JavaTimeTypeAdapters.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'JsonAdapterAnnotationTypeAdapterFactory' private=3 total=4",
+      "class_name": "JsonAdapterAnnotationTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JsonAdapterAnnotationTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JsonAdapterAnnotationTypeAdapterFactory' ATFD=5 TCC=11 WMC=4",
+      "class_name": "JsonAdapterAnnotationTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JsonAdapterAnnotationTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'JsonElementTypeAdapter' max_method_loc=45",
+      "class_name": "JsonElementTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JsonElementTypeAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JsonElementTypeAdapter' ATFD=9 TCC=6 WMC=4",
+      "class_name": "JsonElementTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JsonElementTypeAdapter.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'JsonTreeReader' WMC=28 LOC=316 FIELDS=6",
+      "class_name": "JsonTreeReader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JsonTreeReader.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'JsonTreeReader' max_method_loc=42",
+      "class_name": "JsonTreeReader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\JsonTreeReader.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapTypeAdapterFactory' max_method_loc=42",
+      "class_name": "MapTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\MapTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapTypeAdapterFactory' ATFD=13 TCC=22 WMC=2",
+      "class_name": "MapTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\MapTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ObjectTypeAdapter' max_method_loc=46",
+      "class_name": "ObjectTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\ObjectTypeAdapter.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ReflectiveTypeAdapterFactory' max_method_loc=84",
+      "class_name": "ReflectiveTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\ReflectiveTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ReflectiveTypeAdapterFactory' ATFD=33 TCC=39 WMC=10",
+      "class_name": "ReflectiveTypeAdapterFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\ReflectiveTypeAdapterFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TreeTypeAdapter' ATFD=9 TCC=11 WMC=9",
+      "class_name": "TreeTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\TreeTypeAdapter.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TypeAdapters' WMC=71 LOC=924 FIELDS=3",
+      "class_name": "TypeAdapters",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\TypeAdapters.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ISO8601Utils' max_method_loc=118",
+      "class_name": "ISO8601Utils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\util\\ISO8601Utils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ISO8601Utils' ATFD=18 TCC=18 WMC=8",
+      "class_name": "ISO8601Utils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\bind\\util\\ISO8601Utils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ReflectionHelper' WMC=16 LOC=225 FIELDS=5",
+      "class_name": "ReflectionHelper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\reflect\\ReflectionHelper.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ReflectionHelper' ATFD=21 TCC=24 WMC=16",
+      "class_name": "ReflectionHelper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\reflect\\ReflectionHelper.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SqlDateTypeAdapter' ATFD=5 TCC=6 WMC=2",
+      "class_name": "SqlDateTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\sql\\SqlDateTypeAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SqlTimeTypeAdapter' ATFD=5 TCC=5 WMC=2",
+      "class_name": "SqlTimeTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\internal\\sql\\SqlTimeTypeAdapter.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'TypeToken' private=8 total=15",
+      "class_name": "TypeToken",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\reflect\\TypeToken.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeToken' ATFD=36 TCC=21 WMC=15",
+      "class_name": "TypeToken",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\reflect\\TypeToken.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'JsonReader' WMC=43 LOC=1201 FIELDS=42",
+      "class_name": "JsonReader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\stream\\JsonReader.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'JsonReader' max_method_loc=96",
+      "class_name": "JsonReader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\stream\\JsonReader.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'JsonWriter' WMC=38 LOC=395 FIELDS=14",
+      "class_name": "JsonWriter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\gson\\src\\main\\java\\com\\google\\gson\\stream\\JsonWriter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BagOfPrimitivesDeserializationBenchmark' ATFD=6 TCC=6 WMC=4",
+      "class_name": "BagOfPrimitivesDeserializationBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\metrics\\src\\main\\java\\com\\google\\gson\\metrics\\BagOfPrimitivesDeserializationBenchmark.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CollectionsDeserializationBenchmark' ATFD=7 TCC=8 WMC=4",
+      "class_name": "CollectionsDeserializationBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\metrics\\src\\main\\java\\com\\google\\gson\\metrics\\CollectionsDeserializationBenchmark.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ParseBenchmark' WMC=16 LOC=401 FIELDS=4",
+      "class_name": "ParseBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\metrics\\src\\main\\java\\com\\google\\gson\\metrics\\ParseBenchmark.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ParseBenchmark' max_method_loc=41",
+      "class_name": "ParseBenchmark",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\metrics\\src\\main\\java\\com\\google\\gson\\metrics\\ParseBenchmark.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ProtoTypeAdapter' max_method_loc=55",
+      "class_name": "ProtoTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\proto\\src\\main\\java\\com\\google\\gson\\protobuf\\ProtoTypeAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ProtoTypeAdapter' ATFD=39 TCC=31 WMC=14",
+      "class_name": "ProtoTypeAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\proto\\src\\main\\java\\com\\google\\gson\\protobuf\\ProtoTypeAdapter.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'Main' private=16 total=17",
+      "class_name": "Main",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson\\test-shrinker\\src\\main\\java\\com\\example\\Main.java"
+    }
+  ]
+}

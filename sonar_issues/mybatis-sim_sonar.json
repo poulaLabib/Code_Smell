@@ -1,0 +1,104 @@
+{
+  "total": 11,
+  "issues": [
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'SchedulerMybatis0' private=4 total=5",
+      "class_name": "SchedulerMybatis0",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v1\\SchedulerMybatis0.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FactoryMybatis10' WMC=22 LOC=209 FIELDS=27",
+      "class_name": "FactoryMybatis10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v2\\FactoryMybatis10.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'FormatterMybatis1' FIELDS=7 WMC=14",
+      "class_name": "FormatterMybatis1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v2\\FormatterMybatis1.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ResolverMybatis6' FIELDS=6 WMC=12",
+      "class_name": "ResolverMybatis6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v2\\ResolverMybatis6.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'BuilderMybatis3' private=3 total=4",
+      "class_name": "BuilderMybatis3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v3\\BuilderMybatis3.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DispatcherMybatis5' WMC=22 LOC=204 FIELDS=19",
+      "class_name": "DispatcherMybatis5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v3\\DispatcherMybatis5.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'EngineMybatis7' WMC=17 LOC=160 FIELDS=19",
+      "class_name": "EngineMybatis7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v3\\EngineMybatis7.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'EvaluatorMybatis4' WMC=22 LOC=204 FIELDS=22",
+      "class_name": "EvaluatorMybatis4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v3\\EvaluatorMybatis4.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'EvaluatorMybatis8' private=5 total=6",
+      "class_name": "EvaluatorMybatis8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v3\\EvaluatorMybatis8.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'HandlerMybatis15' FIELDS=10 WMC=20",
+      "class_name": "HandlerMybatis15",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v3\\HandlerMybatis15.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'SchedulerMybatis11' private=4 total=5",
+      "class_name": "SchedulerMybatis11",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis-sim\\src\\main\\java\\mybatis\\v3\\SchedulerMybatis11.java"
+    }
+  ]
+}

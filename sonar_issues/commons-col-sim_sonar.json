@@ -1,0 +1,77 @@
+{
+  "total": 8,
+  "issues": [
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ProcessorCommonscol5' private=6 total=7",
+      "class_name": "ProcessorCommonscol5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v1\\ProcessorCommonscol5.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'RegistryCommonscol8' max_method_loc=70",
+      "class_name": "RegistryCommonscol8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v1\\RegistryCommonscol8.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ControllerCommonscol2' FIELDS=8 WMC=16",
+      "class_name": "ControllerCommonscol2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v2\\ControllerCommonscol2.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EngineCommonscol7' ATFD=14 TCC=1 WMC=1",
+      "class_name": "EngineCommonscol7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v2\\EngineCommonscol7.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'OrchestratorCommonscol9' private=4 total=5",
+      "class_name": "OrchestratorCommonscol9",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v2\\OrchestratorCommonscol9.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ConverterCommonscol6' max_method_loc=71",
+      "class_name": "ConverterCommonscol6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v3\\ConverterCommonscol6.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ExecutorCommonscol10' FIELDS=12 WMC=24",
+      "class_name": "ExecutorCommonscol10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v3\\ExecutorCommonscol10.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'RegistryCommonscol0' WMC=16 LOC=158 FIELDS=27",
+      "class_name": "RegistryCommonscol0",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-col-sim\\src\\main\\java\\commons\\col\\v3\\RegistryCommonscol0.java"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "total": 10,
+  "issues": [
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'EvaluatorGson14' FIELDS=8 WMC=16",
+      "class_name": "EvaluatorGson14",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v1\\EvaluatorGson14.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'FactoryGson10' FIELDS=7 WMC=14",
+      "class_name": "FactoryGson10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v1\\FactoryGson10.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'OrchestratorGson9' private=6 total=7",
+      "class_name": "OrchestratorGson9",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v1\\OrchestratorGson9.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AnalyzerGson12' max_method_loc=74",
+      "class_name": "AnalyzerGson12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v2\\AnalyzerGson12.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ConverterGson8' FIELDS=13 WMC=26",
+      "class_name": "ConverterGson8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v2\\ConverterGson8.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'CoordinatorGson3' FIELDS=8 WMC=16",
+      "class_name": "CoordinatorGson3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v2\\CoordinatorGson3.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'OrchestratorGson16' WMC=16 LOC=152 FIELDS=21",
+      "class_name": "OrchestratorGson16",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v2\\OrchestratorGson16.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ParserGson4' max_method_loc=75",
+      "class_name": "ParserGson4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v2\\ParserGson4.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'CalculatorGson13' FIELDS=13 WMC=26",
+      "class_name": "CalculatorGson13",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v3\\CalculatorGson13.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'TransformerGson2' private=5 total=6",
+      "class_name": "TransformerGson2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\gson-sim\\src\\main\\java\\gson\\v3\\TransformerGson2.java"
+    }
+  ]
+}

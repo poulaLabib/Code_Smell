@@ -1,0 +1,527 @@
+{
+  "total": 58,
+  "issues": [
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractCommandSpecProcessor' WMC=56 LOC=885 FIELDS=6",
+      "class_name": "AbstractCommandSpecProcessor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AbstractCommandSpecProcessor.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractCommandSpecProcessor' max_method_loc=466",
+      "class_name": "AbstractCommandSpecProcessor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AbstractCommandSpecProcessor.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AbstractCommandSpecProcessor' private=42 total=56",
+      "class_name": "AbstractCommandSpecProcessor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AbstractCommandSpecProcessor.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractCommandSpecProcessor' ATFD=181 TCC=89 WMC=56",
+      "class_name": "AbstractCommandSpecProcessor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AbstractCommandSpecProcessor.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AnnotationValidator' WMC=17 LOC=222 FIELDS=3",
+      "class_name": "AnnotationValidator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AnnotationValidator.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AnnotationValidator' max_method_loc=48",
+      "class_name": "AnnotationValidator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AnnotationValidator.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AnnotationValidator' private=12 total=17",
+      "class_name": "AnnotationValidator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AnnotationValidator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AnnotationValidator' ATFD=41 TCC=21 WMC=17",
+      "class_name": "AnnotationValidator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\AnnotationValidator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CompileTimeTypeInfo' WMC=18 LOC=225 FIELDS=2",
+      "class_name": "CompileTimeTypeInfo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\CompileTimeTypeInfo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CompileTimeTypeInfo' ATFD=26 TCC=18 WMC=18",
+      "class_name": "CompileTimeTypeInfo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\CompileTimeTypeInfo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CompletionCandidatesMetaData' ATFD=5 TCC=7 WMC=6",
+      "class_name": "CompletionCandidatesMetaData",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\CompletionCandidatesMetaData.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MixinInfo' ATFD=9 TCC=7 WMC=6",
+      "class_name": "MixinInfo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\MixinInfo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ParameterConsumerMetaData' ATFD=5 TCC=7 WMC=6",
+      "class_name": "ParameterConsumerMetaData",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\ParameterConsumerMetaData.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeConverterMetaData' ATFD=6 TCC=9 WMC=6",
+      "class_name": "TypeConverterMetaData",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\TypeConverterMetaData.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TypedMember' WMC=24 LOC=115 FIELDS=2",
+      "class_name": "TypedMember",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\TypedMember.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypedMember' ATFD=19 TCC=16 WMC=24",
+      "class_name": "TypedMember",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\annotation\\processing\\TypedMember.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DynamicProxyConfigGenerator' ATFD=6 TCC=16 WMC=6",
+      "class_name": "DynamicProxyConfigGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\DynamicProxyConfigGenerator.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'JniConfigGenerator' private=3 total=5",
+      "class_name": "JniConfigGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\JniConfigGenerator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JniConfigGenerator' ATFD=4 TCC=4 WMC=5",
+      "class_name": "JniConfigGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\JniConfigGenerator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ReflectionConfigGenerator' WMC=35 LOC=565 FIELDS=14",
+      "class_name": "ReflectionConfigGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\ReflectionConfigGenerator.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ReflectionConfigGenerator' max_method_loc=51",
+      "class_name": "ReflectionConfigGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\ReflectionConfigGenerator.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ReflectionConfigGenerator' private=20 total=35",
+      "class_name": "ReflectionConfigGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\ReflectionConfigGenerator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ReflectionConfigGenerator' ATFD=103 TCC=53 WMC=35",
+      "class_name": "ReflectionConfigGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\ReflectionConfigGenerator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractGenerator' ATFD=5 TCC=5 WMC=8",
+      "class_name": "AbstractGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\aot\\graalvm\\processor\\AbstractGenerator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ManPageGenerator' WMC=37 LOC=631 FIELDS=0",
+      "class_name": "ManPageGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\docgen\\manpage\\ManPageGenerator.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ManPageGenerator' private=21 total=37",
+      "class_name": "ManPageGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\docgen\\manpage\\ManPageGenerator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JulLogFormatter' ATFD=6 TCC=3 WMC=1",
+      "class_name": "JulLogFormatter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-codegen\\src\\main\\java\\picocli\\codegen\\util\\JulLogFormatter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PopulateOptionsWithValuesMain' ATFD=4 TCC=4 WMC=3",
+      "class_name": "PopulateOptionsWithValuesMain",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\PopulateOptionsWithValuesMain.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PopulatePositionalParametersMain' ATFD=4 TCC=4 WMC=3",
+      "class_name": "PopulatePositionalParametersMain",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\PopulatePositionalParametersMain.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ArgGroupMixinDemo2' ATFD=10 TCC=5 WMC=8",
+      "class_name": "ArgGroupMixinDemo2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\arggroup\\ArgGroupMixinDemo2.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AtFileGenerator' private=5 total=7",
+      "class_name": "AtFileGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\atfile\\AtFileGenerator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CustomOptionListAndSynopsis' ATFD=5 TCC=8 WMC=4",
+      "class_name": "CustomOptionListAndSynopsis",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\customhelp\\CustomOptionListAndSynopsis.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CustomParamList' ATFD=5 TCC=7 WMC=3",
+      "class_name": "CustomParamList",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\customhelp\\CustomParamList.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'EnvironmentVariablesSection' private=5 total=7",
+      "class_name": "EnvironmentVariablesSection",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\customhelp\\EnvironmentVariablesSection.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EnvironmentVariablesSection' ATFD=9 TCC=10 WMC=7",
+      "class_name": "EnvironmentVariablesSection",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\customhelp\\EnvironmentVariablesSection.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'GroupingDemo' private=4 total=6",
+      "class_name": "GroupingDemo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\customhelp\\GroupingDemo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'GroupingDemo' ATFD=4 TCC=11 WMC=6",
+      "class_name": "GroupingDemo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\customhelp\\GroupingDemo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ShowCommandHierarchy' ATFD=5 TCC=7 WMC=4",
+      "class_name": "ShowCommandHierarchy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\customhelp\\ShowCommandHierarchy.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'PropertiesDefaultProvider' private=6 total=7",
+      "class_name": "PropertiesDefaultProvider",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\defaultprovider\\PropertiesDefaultProvider.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PropertiesDefaultProvider' ATFD=11 TCC=13 WMC=7",
+      "class_name": "PropertiesDefaultProvider",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\defaultprovider\\PropertiesDefaultProvider.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TwoPass' ATFD=6 TCC=6 WMC=3",
+      "class_name": "TwoPass",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\defaultprovider\\TwoPass.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ExecutionExceptionHandlerDemo' ATFD=4 TCC=2 WMC=3",
+      "class_name": "ExecutionExceptionHandlerDemo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\exceptionhandler\\ExecutionExceptionHandlerDemo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ExecutionExceptionHandlerDemo2' ATFD=5 TCC=4 WMC=3",
+      "class_name": "ExecutionExceptionHandlerDemo2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\exceptionhandler\\ExecutionExceptionHandlerDemo2.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ParameterExceptionHandlerDemo' ATFD=7 TCC=5 WMC=3",
+      "class_name": "ParameterExceptionHandlerDemo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\exceptionhandler\\ParameterExceptionHandlerDemo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'InitLocale' ATFD=6 TCC=7 WMC=2",
+      "class_name": "InitLocale",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\i18n\\localecontrol\\LocaleControl.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'LeftAlignOptions' max_method_loc=49",
+      "class_name": "LeftAlignOptions",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\leftalign\\LeftAlignOptions.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LoggingMixin' ATFD=9 TCC=12 WMC=7",
+      "class_name": "LoggingMixin",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-examples\\src\\main\\java\\picocli\\examples\\logging_mixin_advanced\\LoggingMixin.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PicocliBaseScript2' ATFD=10 TCC=7 WMC=10",
+      "class_name": "PicocliBaseScript2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-groovy\\src\\main\\java\\picocli\\groovy\\PicocliBaseScript2.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'PicocliScriptASTTransformation' private=7 total=8",
+      "class_name": "PicocliScriptASTTransformation",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-groovy\\src\\main\\java\\picocli\\groovy\\PicocliScriptASTTransformation.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PicocliScriptASTTransformation' ATFD=34 TCC=14 WMC=8",
+      "class_name": "PicocliScriptASTTransformation",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-groovy\\src\\main\\java\\picocli\\groovy\\PicocliScriptASTTransformation.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'PicocliCommands' WMC=17 LOC=222 FIELDS=7",
+      "class_name": "PicocliCommands",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-shell-jline3\\src\\main\\java\\picocli\\shell\\jline3\\PicocliCommands.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PicocliCommands' ATFD=14 TCC=30 WMC=17",
+      "class_name": "PicocliCommands",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\picocli-shell-jline3\\src\\main\\java\\picocli\\shell\\jline3\\PicocliCommands.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AutoComplete' WMC=43 LOC=860 FIELDS=2",
+      "class_name": "AutoComplete",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\src\\main\\java\\picocli\\AutoComplete.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AutoComplete' max_method_loc=70",
+      "class_name": "AutoComplete",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\src\\main\\java\\picocli\\AutoComplete.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'AutoComplete' private=32 total=43",
+      "class_name": "AutoComplete",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\src\\main\\java\\picocli\\AutoComplete.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AutoComplete' ATFD=31 TCC=52 WMC=43",
+      "class_name": "AutoComplete",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\src\\main\\java\\picocli\\AutoComplete.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CommandLine' WMC=1246 LOC=10565 FIELDS=411",
+      "class_name": "CommandLine",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\src\\main\\java\\picocli\\CommandLine.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CommandLine' max_method_loc=9289",
+      "class_name": "CommandLine",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli\\src\\main\\java\\picocli\\CommandLine.java"
+    }
+  ]
+}

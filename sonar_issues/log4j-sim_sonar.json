@@ -1,0 +1,140 @@
+{
+  "total": 15,
+  "issues": [
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AdapterLog4J3' ATFD=10 TCC=1 WMC=1",
+      "class_name": "AdapterLog4J3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v1\\AdapterLog4J3.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'EngineLog4J8' private=4 total=5",
+      "class_name": "EngineLog4J8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v1\\EngineLog4J8.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FactoryLog4J6' WMC=21 LOC=188 FIELDS=25",
+      "class_name": "FactoryLog4J6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v1\\FactoryLog4J6.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ApplicationLog4J11' FIELDS=11 WMC=22",
+      "class_name": "ApplicationLog4J11",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v2\\ApplicationLog4J11.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'OrchestratorLog4J10' WMC=20 LOC=181 FIELDS=20",
+      "class_name": "OrchestratorLog4J10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v2\\OrchestratorLog4J10.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ServiceLog4J14' WMC=19 LOC=174 FIELDS=20",
+      "class_name": "ServiceLog4J14",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v2\\ServiceLog4J14.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ApplicationLog4J1' max_method_loc=62",
+      "class_name": "ApplicationLog4J1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\ApplicationLog4J1.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'CalculatorLog4J0' FIELDS=13 WMC=26",
+      "class_name": "CalculatorLog4J0",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\CalculatorLog4J0.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DispatcherLog4J15' max_method_loc=64",
+      "class_name": "DispatcherLog4J15",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\DispatcherLog4J15.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'DispatcherLog4J7' FIELDS=13 WMC=26",
+      "class_name": "DispatcherLog4J7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\DispatcherLog4J7.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EngineLog4J17' ATFD=10 TCC=1 WMC=1",
+      "class_name": "EngineLog4J17",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\EngineLog4J17.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'EvaluatorLog4J16' max_method_loc=75",
+      "class_name": "EvaluatorLog4J16",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\EvaluatorLog4J16.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FactoryLog4J13' ATFD=13 TCC=1 WMC=1",
+      "class_name": "FactoryLog4J13",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\FactoryLog4J13.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ManagerLog4J4' max_method_loc=67",
+      "class_name": "ManagerLog4J4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\ManagerLog4J4.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'OrchestratorLog4J5' max_method_loc=74",
+      "class_name": "OrchestratorLog4J5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j-sim\\src\\main\\java\\log4j\\v3\\OrchestratorLog4J5.java"
+    }
+  ]
+}

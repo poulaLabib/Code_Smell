@@ -1,0 +1,626 @@
+{
+  "total": 69,
+  "issues": [
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BasicConfigurator' ATFD=5 TCC=3 WMC=3",
+      "class_name": "BasicConfigurator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\BasicConfigurator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Category' WMC=58 LOC=412 FIELDS=2",
+      "class_name": "Category",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\Category.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Category' ATFD=39 TCC=26 WMC=58",
+      "class_name": "Category",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\Category.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Hierarchy' WMC=31 LOC=273 FIELDS=6",
+      "class_name": "Hierarchy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\Hierarchy.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Logger' ATFD=9 TCC=4 WMC=7",
+      "class_name": "Logger",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\Logger.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LogManager' ATFD=22 TCC=8 WMC=11",
+      "class_name": "LogManager",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\LogManager.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'PropertyConfigurator' WMC=29 LOC=469 FIELDS=15",
+      "class_name": "PropertyConfigurator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\PropertyConfigurator.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'PropertyConfigurator' max_method_loc=64",
+      "class_name": "PropertyConfigurator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\PropertyConfigurator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PropertyConfigurator' ATFD=47 TCC=49 WMC=29",
+      "class_name": "PropertyConfigurator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\PropertyConfigurator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'WriterAppender' WMC=18 LOC=157 FIELDS=1",
+      "class_name": "WriterAppender",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\WriterAppender.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LayoutAdapter' ATFD=6 TCC=3 WMC=7",
+      "class_name": "LayoutAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\bridge\\LayoutAdapter.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LogEventAdapter' WMC=19 LOC=118 FIELDS=1",
+      "class_name": "LogEventAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\bridge\\LogEventAdapter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LogEventAdapter' ATFD=25 TCC=11 WMC=19",
+      "class_name": "LogEventAdapter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\bridge\\LogEventAdapter.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LogEventWrapper' WMC=25 LOC=180 FIELDS=4",
+      "class_name": "LogEventWrapper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\bridge\\LogEventWrapper.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LogEventWrapper' ATFD=21 TCC=10 WMC=25",
+      "class_name": "LogEventWrapper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\bridge\\LogEventWrapper.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AbstractBuilder' WMC=20 LOC=195 FIELDS=3",
+      "class_name": "AbstractBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\AbstractBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractBuilder' ATFD=15 TCC=20 WMC=20",
+      "class_name": "AbstractBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\AbstractBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BuilderManager' ATFD=9 TCC=13 WMC=6",
+      "class_name": "BuilderManager",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\BuilderManager.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AsyncAppenderBuilder' max_method_loc=48",
+      "class_name": "AsyncAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\AsyncAppenderBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AsyncAppenderBuilder' ATFD=6 TCC=19 WMC=2",
+      "class_name": "AsyncAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\AsyncAppenderBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ConsoleAppenderBuilder' max_method_loc=62",
+      "class_name": "ConsoleAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\ConsoleAppenderBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DailyRollingFileAppenderBuilder' max_method_loc=59",
+      "class_name": "DailyRollingFileAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\DailyRollingFileAppenderBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'EnhancedRollingFileAppenderBuilder' max_method_loc=79",
+      "class_name": "EnhancedRollingFileAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\EnhancedRollingFileAppenderBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EnhancedRollingFileAppenderBuilder' ATFD=7 TCC=25 WMC=4",
+      "class_name": "EnhancedRollingFileAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\EnhancedRollingFileAppenderBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'FileAppenderBuilder' max_method_loc=54",
+      "class_name": "FileAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\FileAppenderBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RewriteAppenderBuilder' ATFD=4 TCC=15 WMC=2",
+      "class_name": "RewriteAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\RewriteAppenderBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'RollingFileAppenderBuilder' max_method_loc=64",
+      "class_name": "RollingFileAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\RollingFileAppenderBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SocketAppenderBuilder' max_method_loc=49",
+      "class_name": "SocketAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\SocketAppenderBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SyslogAppenderBuilder' max_method_loc=54",
+      "class_name": "SyslogAppenderBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\appender\\SyslogAppenderBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'HtmlLayoutBuilder' ATFD=5 TCC=8 WMC=3",
+      "class_name": "HtmlLayoutBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\layout\\HtmlLayoutBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PatternLayoutBuilder' ATFD=7 TCC=9 WMC=2",
+      "class_name": "PatternLayoutBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\builders\\layout\\PatternLayoutBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Log4j1ConfigurationConverter' WMC=18 LOC=187 FIELDS=7",
+      "class_name": "Log4j1ConfigurationConverter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\Log4j1ConfigurationConverter.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Log4j1ConfigurationConverter' max_method_loc=65",
+      "class_name": "Log4j1ConfigurationConverter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\Log4j1ConfigurationConverter.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Log4j1ConfigurationParser' WMC=23 LOC=379 FIELDS=9",
+      "class_name": "Log4j1ConfigurationParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\Log4j1ConfigurationParser.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Log4j1ConfigurationParser' max_method_loc=76",
+      "class_name": "Log4j1ConfigurationParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\Log4j1ConfigurationParser.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'Log4j1ConfigurationParser' private=22 total=23",
+      "class_name": "Log4j1ConfigurationParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\Log4j1ConfigurationParser.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'PropertiesConfiguration' WMC=17 LOC=388 FIELDS=13",
+      "class_name": "PropertiesConfiguration",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\PropertiesConfiguration.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PropertiesConfiguration' ATFD=21 TCC=33 WMC=17",
+      "class_name": "PropertiesConfiguration",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\PropertiesConfiguration.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PropertySetter' ATFD=21 TCC=20 WMC=8",
+      "class_name": "PropertySetter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\config\\PropertySetter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbsoluteTimeDateFormat' ATFD=5 TCC=4 WMC=2",
+      "class_name": "AbsoluteTimeDateFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\AbsoluteTimeDateFormat.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ISO8601DateFormat' max_method_loc=89",
+      "class_name": "ISO8601DateFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\ISO8601DateFormat.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Loader' ATFD=7 TCC=7 WMC=5",
+      "class_name": "Loader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\Loader.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'OptionConverter' WMC=19 LOC=426 FIELDS=4",
+      "class_name": "OptionConverter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\OptionConverter.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'OptionConverter' max_method_loc=60",
+      "class_name": "OptionConverter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\OptionConverter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'OptionConverter' ATFD=17 TCC=42 WMC=19",
+      "class_name": "OptionConverter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\OptionConverter.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'PatternParser' max_method_loc=84",
+      "class_name": "PatternParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\PatternParser.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PatternParser' ATFD=31 TCC=18 WMC=13",
+      "class_name": "PatternParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\helpers\\PatternParser.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AppenderDynamicMBean' ATFD=17 TCC=21 WMC=8",
+      "class_name": "AppenderDynamicMBean",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\jmx\\AppenderDynamicMBean.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'HierarchyDynamicMBean' ATFD=17 TCC=17 WMC=13",
+      "class_name": "HierarchyDynamicMBean",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\jmx\\HierarchyDynamicMBean.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LayoutDynamicMBean' ATFD=13 TCC=17 WMC=7",
+      "class_name": "LayoutDynamicMBean",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\jmx\\LayoutDynamicMBean.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LoggerDynamicMBean' ATFD=11 TCC=15 WMC=8",
+      "class_name": "LoggerDynamicMBean",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\jmx\\LoggerDynamicMBean.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Log4j1XmlLayout' max_method_loc=69",
+      "class_name": "Log4j1XmlLayout",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\layout\\Log4j1XmlLayout.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Log4j1XmlLayout' ATFD=13 TCC=10 WMC=6",
+      "class_name": "Log4j1XmlLayout",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\layout\\Log4j1XmlLayout.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CategoryUtil' ATFD=8 TCC=7 WMC=13",
+      "class_name": "CategoryUtil",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\legacy\\core\\CategoryUtil.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RendererMap' ATFD=8 TCC=8 WMC=7",
+      "class_name": "RendererMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\or\\RendererMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ThreadGroupRenderer' ATFD=4 TCC=5 WMC=1",
+      "class_name": "ThreadGroupRenderer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\or\\ThreadGroupRenderer.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MessageRenderer' max_method_loc=41",
+      "class_name": "MessageRenderer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\or\\jms\\MessageRenderer.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MessageRenderer' ATFD=11 TCC=5 WMC=1",
+      "class_name": "MessageRenderer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\or\\jms\\MessageRenderer.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'NameAbbreviator' max_method_loc=56",
+      "class_name": "NameAbbreviator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\pattern\\NameAbbreviator.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapRewritePolicy' max_method_loc=55",
+      "class_name": "MapRewritePolicy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\rewrite\\MapRewritePolicy.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapRewritePolicy' ATFD=22 TCC=10 WMC=2",
+      "class_name": "MapRewritePolicy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\rewrite\\MapRewritePolicy.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'PropertyRewritePolicy' max_method_loc=44",
+      "class_name": "PropertyRewritePolicy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\rewrite\\PropertyRewritePolicy.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PropertyRewritePolicy' ATFD=22 TCC=11 WMC=3",
+      "class_name": "PropertyRewritePolicy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\rewrite\\PropertyRewritePolicy.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LocationInfo' ATFD=5 TCC=5 WMC=4",
+      "class_name": "LocationInfo",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\spi\\LocationInfo.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FallbackErrorHandler' ATFD=10 TCC=7 WMC=7",
+      "class_name": "FallbackErrorHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\varia\\FallbackErrorHandler.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DOMConfigurator' WMC=16 LOC=130 FIELDS=0",
+      "class_name": "DOMConfigurator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\xml\\DOMConfigurator.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'XmlConfiguration' WMC=36 LOC=625 FIELDS=24",
+      "class_name": "XmlConfiguration",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\xml\\XmlConfiguration.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'XmlConfiguration' max_method_loc=66",
+      "class_name": "XmlConfiguration",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\xml\\XmlConfiguration.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'XmlConfiguration' ATFD=89 TCC=61 WMC=36",
+      "class_name": "XmlConfiguration",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\log4j2\\log4j-1.2-api\\src\\main\\java\\org\\apache\\log4j\\xml\\XmlConfiguration.java"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "total": 9,
+  "issues": [
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ConverterHibernate7' ATFD=13 TCC=1 WMC=1",
+      "class_name": "ConverterHibernate7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v2\\ConverterHibernate7.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CalculatorHibernate3' max_method_loc=67",
+      "class_name": "CalculatorHibernate3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\CalculatorHibernate3.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ConverterHibernate1' FIELDS=13 WMC=26",
+      "class_name": "ConverterHibernate1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\ConverterHibernate1.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FactoryHibernate12' WMC=18 LOC=158 FIELDS=18",
+      "class_name": "FactoryHibernate12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\FactoryHibernate12.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FormatterHibernate6' WMC=16 LOC=155 FIELDS=26",
+      "class_name": "FormatterHibernate6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\FormatterHibernate6.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ManagerHibernate11' FIELDS=7 WMC=14",
+      "class_name": "ManagerHibernate11",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\ManagerHibernate11.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ResolverHibernate9' FIELDS=11 WMC=22",
+      "class_name": "ResolverHibernate9",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\ResolverHibernate9.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'SchedulerHibernate0' FIELDS=10 WMC=20",
+      "class_name": "SchedulerHibernate0",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\SchedulerHibernate0.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ValidatorHibernate5' ATFD=11 TCC=1 WMC=1",
+      "class_name": "ValidatorHibernate5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\hibernate-sim\\src\\main\\java\\hibernate\\v3\\ValidatorHibernate5.java"
+    }
+  ]
+}

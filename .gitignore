@@ -1,0 +1,26 @@
+# Large folders (>100MB)
+projects/
+dataset/
+ck_metrics/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Test outputs
+*.txt
+*.json
+!gold_set/*.json
+!sonar_issues/*.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

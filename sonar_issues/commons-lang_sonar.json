@@ -1,0 +1,770 @@
+{
+  "total": 85,
+  "issues": [
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AnnotationUtils' ATFD=13 TCC=16 WMC=11",
+      "class_name": "AnnotationUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\AnnotationUtils.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ArchUtils' private=12 total=14",
+      "class_name": "ArchUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ArchUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ArrayUtils' WMC=352 LOC=3256 FIELDS=0",
+      "class_name": "ArrayUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ArrayUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BooleanUtils' max_method_loc=84",
+      "class_name": "BooleanUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\BooleanUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CharSet' ATFD=9 TCC=6 WMC=6",
+      "class_name": "CharSet",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\CharSet.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClassPathUtils' ATFD=6 TCC=2 WMC=6",
+      "class_name": "ClassPathUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ClassPathUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ClassUtils' WMC=45 LOC=648 FIELDS=5",
+      "class_name": "ClassUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ClassUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ClassUtils' max_method_loc=54",
+      "class_name": "ClassUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ClassUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClassUtils' ATFD=74 TCC=44 WMC=45",
+      "class_name": "ClassUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ClassUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Conversion' WMC=42 LOC=762 FIELDS=16",
+      "class_name": "Conversion",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\Conversion.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Conversion' max_method_loc=44",
+      "class_name": "Conversion",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\Conversion.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'LocaleUtils' WMC=19 LOC=169 FIELDS=7",
+      "class_name": "LocaleUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\LocaleUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ObjectUtils' WMC=33 LOC=349 FIELDS=2",
+      "class_name": "ObjectUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ObjectUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ObjectUtils' ATFD=26 TCC=27 WMC=33",
+      "class_name": "ObjectUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ObjectUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'RandomStringUtils' WMC=43 LOC=293 FIELDS=13",
+      "class_name": "RandomStringUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\RandomStringUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'RandomStringUtils' max_method_loc=107",
+      "class_name": "RandomStringUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\RandomStringUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SerializationUtils' ATFD=5 TCC=10 WMC=2",
+      "class_name": "SerializationUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\SerializationUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'StringUtils' WMC=236 LOC=2602 FIELDS=4",
+      "class_name": "StringUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\StringUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'StringUtils' max_method_loc=96",
+      "class_name": "StringUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\StringUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'SystemProperties' WMC=202 LOC=845 FIELDS=0",
+      "class_name": "SystemProperties",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\SystemProperties.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'SystemUtils' WMC=18 LOC=249 FIELDS=1",
+      "class_name": "SystemUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\SystemUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SystemUtils' ATFD=58 TCC=11 WMC=18",
+      "class_name": "SystemUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\SystemUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ThreadUtils' WMC=28 LOC=188 FIELDS=2",
+      "class_name": "ThreadUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\ThreadUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Validate' WMC=27 LOC=305 FIELDS=20",
+      "class_name": "Validate",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\Validate.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CompareToBuilder' WMC=30 LOC=418 FIELDS=1",
+      "class_name": "CompareToBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\CompareToBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DiffBuilder' WMC=28 LOC=198 FIELDS=13",
+      "class_name": "DiffBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\DiffBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DiffResult' ATFD=4 TCC=4 WMC=6",
+      "class_name": "DiffResult",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\DiffResult.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'EqualsBuilder' WMC=38 LOC=462 FIELDS=5",
+      "class_name": "EqualsBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\EqualsBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'EqualsBuilder' max_method_loc=47",
+      "class_name": "EqualsBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\EqualsBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'HashCodeBuilder' WMC=32 LOC=277 FIELDS=5",
+      "class_name": "HashCodeBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\HashCodeBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ReflectionDiffBuilder' ATFD=9 TCC=10 WMC=12",
+      "class_name": "ReflectionDiffBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\ReflectionDiffBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ReflectionToStringBuilder' WMC=27 LOC=211 FIELDS=3",
+      "class_name": "ReflectionToStringBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\ReflectionToStringBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'StandardToStringStyle' WMC=40 LOC=169 FIELDS=1",
+      "class_name": "StandardToStringStyle",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\StandardToStringStyle.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ToStringStyle' WMC=136 LOC=907 FIELDS=30",
+      "class_name": "ToStringStyle",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\ToStringStyle.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ToStringStyle' max_method_loc=82",
+      "class_name": "ToStringStyle",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\builder\\ToStringStyle.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ConcurrentUtils' ATFD=10 TCC=7 WMC=9",
+      "class_name": "ConcurrentUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\concurrent\\ConcurrentUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'EventCountCircuitBreaker' WMC=24 LOC=162 FIELDS=8",
+      "class_name": "EventCountCircuitBreaker",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\concurrent\\EventCountCircuitBreaker.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TimedSemaphore' WMC=21 LOC=157 FIELDS=15",
+      "class_name": "TimedSemaphore",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\concurrent\\TimedSemaphore.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EventUtils' ATFD=9 TCC=7 WMC=2",
+      "class_name": "EventUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\event\\EventUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ContextedException' ATFD=10 TCC=3 WMC=8",
+      "class_name": "ContextedException",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\exception\\ContextedException.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ContextedRuntimeException' ATFD=10 TCC=3 WMC=8",
+      "class_name": "ContextedRuntimeException",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\exception\\ContextedRuntimeException.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DefaultExceptionContext' ATFD=6 TCC=7 WMC=6",
+      "class_name": "DefaultExceptionContext",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\exception\\DefaultExceptionContext.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ExceptionUtils' WMC=28 LOC=323 FIELDS=2",
+      "class_name": "ExceptionUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\exception\\ExceptionUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Failable' ATFD=5 TCC=13 WMC=4",
+      "class_name": "Failable",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\function\\Failable.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'MethodInvokers' private=3 total=3",
+      "class_name": "MethodInvokers",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\function\\MethodInvokers.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MethodInvokers' ATFD=4 TCC=4 WMC=3",
+      "class_name": "MethodInvokers",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\function\\MethodInvokers.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'Fraction' max_method_loc=47",
+      "class_name": "Fraction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\math\\Fraction.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'NumberUtils' WMC=66 LOC=709 FIELDS=0",
+      "class_name": "NumberUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\math\\NumberUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'NumberUtils' max_method_loc=140",
+      "class_name": "NumberUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\math\\NumberUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ConstructorUtils' ATFD=10 TCC=7 WMC=1",
+      "class_name": "ConstructorUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\ConstructorUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FieldUtils' WMC=34 LOC=234 FIELDS=0",
+      "class_name": "FieldUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\FieldUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FieldUtils' ATFD=30 TCC=15 WMC=34",
+      "class_name": "FieldUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\FieldUtils.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'MemberUtils' private=7 total=8",
+      "class_name": "MemberUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\MemberUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MemberUtils' ATFD=9 TCC=14 WMC=8",
+      "class_name": "MemberUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\MemberUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MethodUtils' WMC=30 LOC=396 FIELDS=1",
+      "class_name": "MethodUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\MethodUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MethodUtils' ATFD=46 TCC=38 WMC=30",
+      "class_name": "MethodUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\MethodUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TypeUtils' WMC=63 LOC=966 FIELDS=9",
+      "class_name": "TypeUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\TypeUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TypeUtils' max_method_loc=46",
+      "class_name": "TypeUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\TypeUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeUtils' ATFD=76 TCC=50 WMC=63",
+      "class_name": "TypeUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\reflect\\TypeUtils.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'LangCollectors' FIELDS=6 WMC=3",
+      "class_name": "LangCollectors",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\stream\\LangCollectors.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ExtendedMessageFormat' WMC=17 LOC=290 FIELDS=7",
+      "class_name": "ExtendedMessageFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\ExtendedMessageFormat.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ExtendedMessageFormat' max_method_loc=61",
+      "class_name": "ExtendedMessageFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\ExtendedMessageFormat.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ExtendedMessageFormat' private=9 total=17",
+      "class_name": "ExtendedMessageFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\ExtendedMessageFormat.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ExtendedMessageFormat' ATFD=33 TCC=18 WMC=17",
+      "class_name": "ExtendedMessageFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\ExtendedMessageFormat.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'StrBuilder' WMC=163 LOC=1347 FIELDS=5",
+      "class_name": "StrBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\StrBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'StrSubstitutor' max_method_loc=102",
+      "class_name": "StrSubstitutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\StrSubstitutor.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'StrTokenizer' max_method_loc=47",
+      "class_name": "StrTokenizer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\StrTokenizer.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'WordUtils' max_method_loc=61",
+      "class_name": "WordUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\WordUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'NumericEntityUnescaper' max_method_loc=47",
+      "class_name": "NumericEntityUnescaper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\text\\translate\\NumericEntityUnescaper.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'AbstractFormatCache' ATFD=6 TCC=10 WMC=6",
+      "class_name": "AbstractFormatCache",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\AbstractFormatCache.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DateFormatUtils' ATFD=13 TCC=5 WMC=17",
+      "class_name": "DateFormatUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\DateFormatUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DateUtils' WMC=68 LOC=542 FIELDS=3",
+      "class_name": "DateUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\DateUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DateUtils' max_method_loc=96",
+      "class_name": "DateUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\DateUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DateUtils' ATFD=44 TCC=24 WMC=68",
+      "class_name": "DateUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\DateUtils.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DurationFormatUtils' max_method_loc=93",
+      "class_name": "DurationFormatUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\DurationFormatUtils.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DurationFormatUtils' ATFD=16 TCC=19 WMC=12",
+      "class_name": "DurationFormatUtils",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\DurationFormatUtils.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FastDateFormat' WMC=37 LOC=183 FIELDS=4",
+      "class_name": "FastDateFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\FastDateFormat.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FastDateFormat' ATFD=24 TCC=5 WMC=37",
+      "class_name": "FastDateFormat",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\FastDateFormat.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FastDateParser' WMC=27 LOC=634 FIELDS=40",
+      "class_name": "FastDateParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\FastDateParser.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'FastDateParser' max_method_loc=228",
+      "class_name": "FastDateParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\FastDateParser.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FastDateParser' ATFD=41 TCC=46 WMC=27",
+      "class_name": "FastDateParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\FastDateParser.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'FastDatePrinter' WMC=67 LOC=829 FIELDS=30",
+      "class_name": "FastDatePrinter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\FastDatePrinter.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'FastDatePrinter' max_method_loc=133",
+      "class_name": "FastDatePrinter",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\FastDatePrinter.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TimeZones' ATFD=6 TCC=6 WMC=3",
+      "class_name": "TimeZones",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\time\\TimeZones.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Triple' ATFD=6 TCC=2 WMC=8",
+      "class_name": "Triple",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-lang\\src\\main\\java\\org\\apache\\commons\\lang3\\tuple\\Triple.java"
+    }
+  ]
+}

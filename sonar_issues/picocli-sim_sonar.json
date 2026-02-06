@@ -1,0 +1,104 @@
+{
+  "total": 11,
+  "issues": [
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'AnalyzerPicocli5' WMC=20 LOC=187 FIELDS=25",
+      "class_name": "AnalyzerPicocli5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v1\\AnalyzerPicocli5.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'EnginePicocli3' private=3 total=4",
+      "class_name": "EnginePicocli3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v1\\EnginePicocli3.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'EnginePicocli6' WMC=18 LOC=175 FIELDS=27",
+      "class_name": "EnginePicocli6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v1\\EnginePicocli6.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'EvaluatorPicocli14' private=3 total=4",
+      "class_name": "EvaluatorPicocli14",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v1\\EvaluatorPicocli14.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ExecutorPicocli1' WMC=20 LOC=180 FIELDS=23",
+      "class_name": "ExecutorPicocli1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v1\\ExecutorPicocli1.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'OrchestratorPicocli11' FIELDS=7 WMC=14",
+      "class_name": "OrchestratorPicocli11",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v1\\OrchestratorPicocli11.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ManagerPicocli7' ATFD=11 TCC=1 WMC=1",
+      "class_name": "ManagerPicocli7",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v2\\ManagerPicocli7.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'SchedulerPicocli4' max_method_loc=70",
+      "class_name": "SchedulerPicocli4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v2\\SchedulerPicocli4.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ApplicationPicocli2' max_method_loc=67",
+      "class_name": "ApplicationPicocli2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v3\\ApplicationPicocli2.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TransformerPicocli10' max_method_loc=81",
+      "class_name": "TransformerPicocli10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v3\\TransformerPicocli10.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TransformerPicocli12' max_method_loc=80",
+      "class_name": "TransformerPicocli12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\picocli-sim\\src\\main\\java\\picocli\\v3\\TransformerPicocli12.java"
+    }
+  ]
+}

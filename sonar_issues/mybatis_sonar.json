@@ -1,0 +1,1481 @@
+{
+  "total": 164,
+  "issues": [
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MavenWrapperDownloader' ATFD=8 TCC=13 WMC=4",
+      "class_name": "MavenWrapperDownloader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\.mvn\\wrapper\\MavenWrapperDownloader.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapperMethod' WMC=20 LOC=316 FIELDS=14",
+      "class_name": "MapperMethod",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\binding\\MapperMethod.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'MapperMethod' max_method_loc=48",
+      "class_name": "MapperMethod",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\binding\\MapperMethod.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapperMethod' ATFD=58 TCC=22 WMC=20",
+      "class_name": "MapperMethod",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\binding\\MapperMethod.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapperProxy' ATFD=8 TCC=12 WMC=5",
+      "class_name": "MapperProxy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\binding\\MapperProxy.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapperBuilderAssistant' WMC=19 LOC=326 FIELDS=4",
+      "class_name": "MapperBuilderAssistant",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\MapperBuilderAssistant.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapperBuilderAssistant' ATFD=16 TCC=33 WMC=19",
+      "class_name": "MapperBuilderAssistant",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\MapperBuilderAssistant.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ParameterExpression' private=9 total=9",
+      "class_name": "ParameterExpression",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\ParameterExpression.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ParameterMappingTokenHandler' max_method_loc=51",
+      "class_name": "ParameterMappingTokenHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\ParameterMappingTokenHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ParameterMappingTokenHandler' ATFD=19 TCC=18 WMC=3",
+      "class_name": "ParameterMappingTokenHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\ParameterMappingTokenHandler.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ResultMappingConstructorResolver' max_method_loc=43",
+      "class_name": "ResultMappingConstructorResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\ResultMappingConstructorResolver.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ResultMappingConstructorResolver' private=7 total=11",
+      "class_name": "ResultMappingConstructorResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\ResultMappingConstructorResolver.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ResultMappingConstructorResolver' ATFD=21 TCC=33 WMC=11",
+      "class_name": "ResultMappingConstructorResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\ResultMappingConstructorResolver.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MapperAnnotationBuilder' WMC=29 LOC=667 FIELDS=6",
+      "class_name": "MapperAnnotationBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\annotation\\MapperAnnotationBuilder.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'MapperAnnotationBuilder' private=28 total=29",
+      "class_name": "MapperAnnotationBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\annotation\\MapperAnnotationBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapperAnnotationBuilder' ATFD=65 TCC=59 WMC=29",
+      "class_name": "MapperAnnotationBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\annotation\\MapperAnnotationBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ProviderSqlSource' max_method_loc=44",
+      "class_name": "ProviderSqlSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\annotation\\ProviderSqlSource.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ProviderSqlSource' private=5 total=6",
+      "class_name": "ProviderSqlSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\annotation\\ProviderSqlSource.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ProviderSqlSource' ATFD=25 TCC=18 WMC=6",
+      "class_name": "ProviderSqlSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\annotation\\ProviderSqlSource.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'XMLConfigBuilder' WMC=20 LOC=385 FIELDS=4",
+      "class_name": "XMLConfigBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLConfigBuilder.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'XMLConfigBuilder' private=19 total=20",
+      "class_name": "XMLConfigBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLConfigBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'XMLConfigBuilder' ATFD=124 TCC=29 WMC=20",
+      "class_name": "XMLConfigBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLConfigBuilder.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'XMLIncludeTransformer' private=4 total=5",
+      "class_name": "XMLIncludeTransformer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLIncludeTransformer.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'XMLIncludeTransformer' ATFD=26 TCC=15 WMC=5",
+      "class_name": "XMLIncludeTransformer",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLIncludeTransformer.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'XMLMapperBuilder' WMC=20 LOC=358 FIELDS=4",
+      "class_name": "XMLMapperBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLMapperBuilder.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'XMLMapperBuilder' private=17 total=20",
+      "class_name": "XMLMapperBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLMapperBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'XMLMapperBuilder' ATFD=83 TCC=29 WMC=20",
+      "class_name": "XMLMapperBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLMapperBuilder.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'XMLStatementBuilder' max_method_loc=73",
+      "class_name": "XMLStatementBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLStatementBuilder.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'XMLStatementBuilder' private=6 total=7",
+      "class_name": "XMLStatementBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLStatementBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'XMLStatementBuilder' ATFD=43 TCC=18 WMC=7",
+      "class_name": "XMLStatementBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\builder\\xml\\XMLStatementBuilder.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JndiDataSourceFactory' ATFD=5 TCC=8 WMC=3",
+      "class_name": "JndiDataSourceFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\datasource\\jndi\\JndiDataSourceFactory.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'PooledDataSource' WMC=48 LOC=445 FIELDS=6",
+      "class_name": "PooledDataSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\datasource\\pooled\\PooledDataSource.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'PooledDataSource' max_method_loc=101",
+      "class_name": "PooledDataSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\datasource\\pooled\\PooledDataSource.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PooledDataSource' ATFD=91 TCC=17 WMC=48",
+      "class_name": "PooledDataSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\datasource\\pooled\\PooledDataSource.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'UnpooledDataSource' WMC=37 LOC=236 FIELDS=11",
+      "class_name": "UnpooledDataSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\datasource\\unpooled\\UnpooledDataSource.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'UnpooledDataSourceFactory' ATFD=5 TCC=8 WMC=3",
+      "class_name": "UnpooledDataSourceFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\datasource\\unpooled\\UnpooledDataSourceFactory.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'BaseExecutor' WMC=21 LOC=325 FIELDS=8",
+      "class_name": "BaseExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\BaseExecutor.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BaseExecutor' max_method_loc=43",
+      "class_name": "BaseExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\BaseExecutor.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BaseExecutor' ATFD=42 TCC=26 WMC=21",
+      "class_name": "BaseExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\BaseExecutor.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'BatchExecutor' max_method_loc=46",
+      "class_name": "BatchExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\BatchExecutor.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BatchExecutor' ATFD=18 TCC=15 WMC=2",
+      "class_name": "BatchExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\BatchExecutor.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CachingExecutor' ATFD=10 TCC=5 WMC=14",
+      "class_name": "CachingExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\CachingExecutor.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ReuseExecutor' private=4 total=6",
+      "class_name": "ReuseExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\ReuseExecutor.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ReuseExecutor' ATFD=10 TCC=7 WMC=6",
+      "class_name": "ReuseExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\ReuseExecutor.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SimpleExecutor' ATFD=7 TCC=5 WMC=3",
+      "class_name": "SimpleExecutor",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\SimpleExecutor.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'Jdbc3KeyGenerator' private=5 total=9",
+      "class_name": "Jdbc3KeyGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\keygen\\Jdbc3KeyGenerator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Jdbc3KeyGenerator' ATFD=19 TCC=23 WMC=9",
+      "class_name": "Jdbc3KeyGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\keygen\\Jdbc3KeyGenerator.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'SelectKeyGenerator' private=3 total=5",
+      "class_name": "SelectKeyGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\keygen\\SelectKeyGenerator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SelectKeyGenerator' ATFD=10 TCC=8 WMC=5",
+      "class_name": "SelectKeyGenerator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\keygen\\SelectKeyGenerator.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'AbstractEnhancedDeserializationProxy' max_method_loc=43",
+      "class_name": "AbstractEnhancedDeserializationProxy",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\loader\\AbstractEnhancedDeserializationProxy.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ResultLoader' ATFD=4 TCC=6 WMC=3",
+      "class_name": "ResultLoader",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\loader\\ResultLoader.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ResultLoaderMap' WMC=16 LOC=214 FIELDS=10",
+      "class_name": "ResultLoaderMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\loader\\ResultLoaderMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ResultLoaderMap' max_method_loc=42",
+      "class_name": "ResultLoaderMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\loader\\ResultLoaderMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ResultLoaderMap' ATFD=16 TCC=20 WMC=16",
+      "class_name": "ResultLoaderMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\loader\\ResultLoaderMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CglibProxyFactory' ATFD=10 TCC=22 WMC=7",
+      "class_name": "CglibProxyFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\loader\\cglib\\CglibProxyFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JavassistProxyFactory' ATFD=9 TCC=22 WMC=7",
+      "class_name": "JavassistProxyFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\loader\\javassist\\JavassistProxyFactory.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DefaultResultSetHandler' WMC=69 LOC=1370 FIELDS=22",
+      "class_name": "DefaultResultSetHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\resultset\\DefaultResultSetHandler.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DefaultResultSetHandler' max_method_loc=56",
+      "class_name": "DefaultResultSetHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\resultset\\DefaultResultSetHandler.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'DefaultResultSetHandler' private=64 total=69",
+      "class_name": "DefaultResultSetHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\resultset\\DefaultResultSetHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DefaultResultSetHandler' ATFD=245 TCC=90 WMC=69",
+      "class_name": "DefaultResultSetHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\resultset\\DefaultResultSetHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ResultSetWrapper' ATFD=12 TCC=20 WMC=11",
+      "class_name": "ResultSetWrapper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\resultset\\ResultSetWrapper.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BaseStatementHandler' ATFD=15 TCC=8 WMC=8",
+      "class_name": "BaseStatementHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\statement\\BaseStatementHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CallableStatementHandler' ATFD=21 TCC=9 WMC=5",
+      "class_name": "CallableStatementHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\statement\\CallableStatementHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PreparedStatementHandler' ATFD=9 TCC=7 WMC=4",
+      "class_name": "PreparedStatementHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\statement\\PreparedStatementHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'RoutingStatementHandler' ATFD=4 TCC=2 WMC=6",
+      "class_name": "RoutingStatementHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\statement\\RoutingStatementHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SimpleStatementHandler' ATFD=11 TCC=6 WMC=4",
+      "class_name": "SimpleStatementHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\executor\\statement\\SimpleStatementHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClassLoaderWrapper' ATFD=5 TCC=4 WMC=4",
+      "class_name": "ClassLoaderWrapper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\io\\ClassLoaderWrapper.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DefaultVFS' max_method_loc=94",
+      "class_name": "DefaultVFS",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\io\\DefaultVFS.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DefaultVFS' ATFD=16 TCC=23 WMC=7",
+      "class_name": "DefaultVFS",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\io\\DefaultVFS.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JBoss6VFS' ATFD=10 TCC=14 WMC=5",
+      "class_name": "JBoss6VFS",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\io\\JBoss6VFS.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ResolverUtil' ATFD=7 TCC=15 WMC=11",
+      "class_name": "ResolverUtil",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\io\\ResolverUtil.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SerialFilterChecker' ATFD=4 TCC=5 WMC=1",
+      "class_name": "SerialFilterChecker",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\io\\SerialFilterChecker.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'VFS' ATFD=9 TCC=12 WMC=7",
+      "class_name": "VFS",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\io\\VFS.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ScriptRunner' WMC=27 LOC=247 FIELDS=14",
+      "class_name": "ScriptRunner",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\jdbc\\ScriptRunner.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ScriptRunner' private=15 total=27",
+      "class_name": "ScriptRunner",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\jdbc\\ScriptRunner.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SqlRunner' ATFD=9 TCC=19 WMC=7",
+      "class_name": "SqlRunner",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\jdbc\\SqlRunner.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ConnectionLogger' ATFD=5 TCC=6 WMC=3",
+      "class_name": "ConnectionLogger",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\logging\\jdbc\\ConnectionLogger.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'PreparedStatementLogger' ATFD=8 TCC=7 WMC=3",
+      "class_name": "PreparedStatementLogger",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\logging\\jdbc\\PreparedStatementLogger.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ResultSetLogger' ATFD=8 TCC=9 WMC=5",
+      "class_name": "ResultSetLogger",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\logging\\jdbc\\ResultSetLogger.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'StatementLogger' ATFD=5 TCC=6 WMC=3",
+      "class_name": "StatementLogger",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\logging\\jdbc\\StatementLogger.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CacheBuilder' ATFD=19 TCC=15 WMC=13",
+      "class_name": "CacheBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\mapping\\CacheBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MappedStatement' WMC=50 LOC=260 FIELDS=26",
+      "class_name": "MappedStatement",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\mapping\\MappedStatement.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ResultMap' WMC=16 LOC=155 FIELDS=14",
+      "class_name": "ResultMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\mapping\\ResultMap.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ResultMap' max_method_loc=52",
+      "class_name": "ResultMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\mapping\\ResultMap.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ResultMap' ATFD=14 TCC=11 WMC=16",
+      "class_name": "ResultMap",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\mapping\\ResultMap.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'ResultMapping' WMC=34 LOC=242 FIELDS=14",
+      "class_name": "ResultMapping",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\mapping\\ResultMapping.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'VendorDatabaseIdProvider' ATFD=4 TCC=5 WMC=4",
+      "class_name": "VendorDatabaseIdProvider",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\mapping\\VendorDatabaseIdProvider.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'GenericTokenParser' max_method_loc=49",
+      "class_name": "GenericTokenParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\parsing\\GenericTokenParser.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'XNode' WMC=44 LOC=276 FIELDS=6",
+      "class_name": "XNode",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\parsing\\XNode.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'XNode' ATFD=36 TCC=22 WMC=44",
+      "class_name": "XNode",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\parsing\\XNode.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'XPathParser' WMC=25 LOC=205 FIELDS=5",
+      "class_name": "XPathParser",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\parsing\\XPathParser.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Plugin' ATFD=7 TCC=11 WMC=2",
+      "class_name": "Plugin",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\plugin\\Plugin.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ArrayUtil' ATFD=7 TCC=5 WMC=3",
+      "class_name": "ArrayUtil",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\ArrayUtil.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MetaClass' ATFD=32 TCC=9 WMC=13",
+      "class_name": "MetaClass",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\MetaClass.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'MetaObject' WMC=16 LOC=107 FIELDS=5",
+      "class_name": "MetaObject",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\MetaObject.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ParamNameResolver' ATFD=9 TCC=15 WMC=7",
+      "class_name": "ParamNameResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\ParamNameResolver.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Reflector' WMC=28 LOC=361 FIELDS=7",
+      "class_name": "Reflector",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\Reflector.java"
+    },
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'Reflector' private=19 total=28",
+      "class_name": "Reflector",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\Reflector.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'Reflector' ATFD=48 TCC=46 WMC=28",
+      "class_name": "Reflector",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\Reflector.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TypeParameterResolver' WMC=27 LOC=304 FIELDS=5",
+      "class_name": "TypeParameterResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\TypeParameterResolver.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'TypeParameterResolver' max_method_loc=41",
+      "class_name": "TypeParameterResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\TypeParameterResolver.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeParameterResolver' ATFD=38 TCC=20 WMC=27",
+      "class_name": "TypeParameterResolver",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\TypeParameterResolver.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MethodInvoker' ATFD=4 TCC=2 WMC=1",
+      "class_name": "MethodInvoker",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\invoker\\MethodInvoker.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BaseWrapper' ATFD=23 TCC=3 WMC=5",
+      "class_name": "BaseWrapper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\wrapper\\BaseWrapper.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BeanWrapper' ATFD=45 TCC=13 WMC=12",
+      "class_name": "BeanWrapper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\wrapper\\BeanWrapper.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MapWrapper' ATFD=17 TCC=6 WMC=10",
+      "class_name": "MapWrapper",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\reflection\\wrapper\\MapWrapper.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'DefaultParameterHandler' max_method_loc=90",
+      "class_name": "DefaultParameterHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\defaults\\DefaultParameterHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DefaultParameterHandler' ATFD=29 TCC=22 WMC=14",
+      "class_name": "DefaultParameterHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\defaults\\DefaultParameterHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DynamicSqlSource' ATFD=4 TCC=4 WMC=1",
+      "class_name": "DynamicSqlSource",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\xmltags\\DynamicSqlSource.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ExpressionEvaluator' ATFD=4 TCC=4 WMC=1",
+      "class_name": "ExpressionEvaluator",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\xmltags\\ExpressionEvaluator.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ForEachSqlNode' ATFD=9 TCC=9 WMC=9",
+      "class_name": "ForEachSqlNode",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\xmltags\\ForEachSqlNode.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TextSqlNode' ATFD=6 TCC=6 WMC=6",
+      "class_name": "TextSqlNode",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\xmltags\\TextSqlNode.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TrimSqlNode' ATFD=6 TCC=12 WMC=8",
+      "class_name": "TrimSqlNode",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\xmltags\\TrimSqlNode.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'XMLScriptBuilder' ATFD=23 TCC=14 WMC=14",
+      "class_name": "XMLScriptBuilder",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\scripting\\xmltags\\XMLScriptBuilder.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'Configuration' WMC=139 LOC=831 FIELDS=8",
+      "class_name": "Configuration",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\session\\Configuration.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DefaultSqlSession' WMC=22 LOC=265 FIELDS=5",
+      "class_name": "DefaultSqlSession",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\session\\defaults\\DefaultSqlSession.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DefaultSqlSessionFactory' ATFD=10 TCC=7 WMC=14",
+      "class_name": "DefaultSqlSessionFactory",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\session\\defaults\\DefaultSqlSessionFactory.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JdbcTransaction' ATFD=10 TCC=5 WMC=8",
+      "class_name": "JdbcTransaction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\transaction\\jdbc\\JdbcTransaction.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ManagedTransaction' ATFD=4 TCC=5 WMC=6",
+      "class_name": "ManagedTransaction",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\transaction\\managed\\ManagedTransaction.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ArrayTypeHandler' ATFD=11 TCC=23 WMC=6",
+      "class_name": "ArrayTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ArrayTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BigDecimalTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "BigDecimalTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\BigDecimalTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BigIntegerTypeHandler' ATFD=4 TCC=4 WMC=4",
+      "class_name": "BigIntegerTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\BigIntegerTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BlobByteObjectArrayTypeHandler' ATFD=5 TCC=5 WMC=5",
+      "class_name": "BlobByteObjectArrayTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\BlobByteObjectArrayTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BlobInputStreamTypeHandler' ATFD=5 TCC=4 WMC=5",
+      "class_name": "BlobInputStreamTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\BlobInputStreamTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BlobTypeHandler' ATFD=5 TCC=4 WMC=5",
+      "class_name": "BlobTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\BlobTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BooleanTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "BooleanTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\BooleanTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ByteArrayTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "ByteArrayTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ByteArrayTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ByteObjectArrayTypeHandler' ATFD=4 TCC=4 WMC=5",
+      "class_name": "ByteObjectArrayTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ByteObjectArrayTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ByteTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "ByteTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ByteTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'CharacterTypeHandler' ATFD=4 TCC=5 WMC=5",
+      "class_name": "CharacterTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\CharacterTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClobReaderTypeHandler' ATFD=5 TCC=4 WMC=5",
+      "class_name": "ClobReaderTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ClobReaderTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ClobTypeHandler' ATFD=5 TCC=5 WMC=5",
+      "class_name": "ClobTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ClobTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DateOnlyTypeHandler' ATFD=6 TCC=6 WMC=5",
+      "class_name": "DateOnlyTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\DateOnlyTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DateTypeHandler' ATFD=6 TCC=5 WMC=5",
+      "class_name": "DateTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\DateTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'DoubleTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "DoubleTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\DoubleTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EnumOrdinalTypeHandler' ATFD=7 TCC=5 WMC=5",
+      "class_name": "EnumOrdinalTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\EnumOrdinalTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'EnumTypeHandler' ATFD=5 TCC=5 WMC=4",
+      "class_name": "EnumTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\EnumTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'FloatTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "FloatTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\FloatTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'InstantTypeHandler' ATFD=4 TCC=5 WMC=5",
+      "class_name": "InstantTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\InstantTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'IntegerTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "IntegerTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\IntegerTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'JapaneseDateTypeHandler' ATFD=4 TCC=8 WMC=5",
+      "class_name": "JapaneseDateTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\JapaneseDateTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LocalDateTimeTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "LocalDateTimeTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\LocalDateTimeTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LocalDateTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "LocalDateTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\LocalDateTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LocalTimeTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "LocalTimeTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\LocalTimeTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'LongTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "LongTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\LongTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'MonthTypeHandler' ATFD=5 TCC=5 WMC=4",
+      "class_name": "MonthTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\MonthTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NClobTypeHandler' ATFD=5 TCC=5 WMC=5",
+      "class_name": "NClobTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\NClobTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'NStringTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "NStringTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\NStringTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ObjectTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "ObjectTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ObjectTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'OffsetDateTimeTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "OffsetDateTimeTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\OffsetDateTimeTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'OffsetTimeTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "OffsetTimeTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\OffsetTimeTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ShortTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "ShortTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ShortTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SqlDateTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "SqlDateTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\SqlDateTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SqlTimestampTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "SqlTimestampTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\SqlTimestampTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SqlTimeTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "SqlTimeTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\SqlTimeTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'SqlxmlTypeHandler' ATFD=7 TCC=4 WMC=5",
+      "class_name": "SqlxmlTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\SqlxmlTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'StringTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "StringTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\StringTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TimeOnlyTypeHandler' ATFD=6 TCC=5 WMC=5",
+      "class_name": "TimeOnlyTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\TimeOnlyTypeHandler.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'TypeHandlerRegistry' WMC=18 LOC=416 FIELDS=0",
+      "class_name": "TypeHandlerRegistry",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\TypeHandlerRegistry.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'TypeHandlerRegistry' ATFD=26 TCC=29 WMC=18",
+      "class_name": "TypeHandlerRegistry",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\TypeHandlerRegistry.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'UnknownTypeHandler' ATFD=12 TCC=10 WMC=5",
+      "class_name": "UnknownTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\UnknownTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'YearMonthTypeHandler' ATFD=4 TCC=5 WMC=5",
+      "class_name": "YearMonthTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\YearMonthTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'YearTypeHandler' ATFD=5 TCC=5 WMC=4",
+      "class_name": "YearTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\YearTypeHandler.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ZonedDateTimeTypeHandler' ATFD=4 TCC=3 WMC=4",
+      "class_name": "ZonedDateTimeTypeHandler",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\mybatis\\src\\main\\java\\org\\apache\\ibatis\\type\\ZonedDateTimeTypeHandler.java"
+    }
+  ]
+}

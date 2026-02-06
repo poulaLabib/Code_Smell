@@ -1,0 +1,77 @@
+{
+  "total": 8,
+  "issues": [
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ExecutorCommons10' max_method_loc=75",
+      "class_name": "ExecutorCommons10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v1\\ExecutorCommons10.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'ProcessorCommons12' max_method_loc=71",
+      "class_name": "ProcessorCommons12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v1\\ProcessorCommons12.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'CalculatorCommons0' WMC=20 LOC=191 FIELDS=28",
+      "class_name": "CalculatorCommons0",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v2\\CalculatorCommons0.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ControllerCommons3' ATFD=13 TCC=1 WMC=1",
+      "class_name": "ControllerCommons3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v2\\ControllerCommons3.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'HandlerCommons1' FIELDS=9 WMC=18",
+      "class_name": "HandlerCommons1",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v2\\HandlerCommons1.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ProcessorCommons5' ATFD=11 TCC=1 WMC=1",
+      "class_name": "ProcessorCommons5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v2\\ProcessorCommons5.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'CoordinatorCommons6' max_method_loc=61",
+      "class_name": "CoordinatorCommons6",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v3\\CoordinatorCommons6.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'DispatcherCommons4' WMC=22 LOC=197 FIELDS=25",
+      "class_name": "DispatcherCommons4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\commons-sim\\src\\main\\java\\commons\\v3\\DispatcherCommons4.java"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "total": 9,
+  "issues": [
+    {
+      "rule": "java:S1604",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DeadCode",
+      "text": "DeadCode: 'ApplicationGuava9' private=5 total=6",
+      "class_name": "ApplicationGuava9",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v1\\ApplicationGuava9.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'BuilderGuava2' ATFD=9 TCC=1 WMC=1",
+      "class_name": "BuilderGuava2",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v1\\BuilderGuava2.java"
+    },
+    {
+      "rule": "java:S2095",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "GodClass",
+      "text": "GodClass: 'HandlerGuava13' WMC=22 LOC=210 FIELDS=24",
+      "class_name": "HandlerGuava13",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v1\\HandlerGuava13.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ParserGuava4' ATFD=10 TCC=1 WMC=1",
+      "class_name": "ParserGuava4",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v1\\ParserGuava4.java"
+    },
+    {
+      "rule": "java:R1031",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "FeatureEnvy",
+      "text": "FeatureEnvy: 'ConverterGuava3' ATFD=13 TCC=1 WMC=1",
+      "class_name": "ConverterGuava3",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v2\\ConverterGuava3.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ExecutorGuava10' FIELDS=8 WMC=16",
+      "class_name": "ExecutorGuava10",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v2\\ExecutorGuava10.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'ManagerGuava12' FIELDS=12 WMC=24",
+      "class_name": "ManagerGuava12",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v2\\ManagerGuava12.java"
+    },
+    {
+      "rule": "java:S2093",
+      "type": "CODE_SMELL",
+      "severity": "MINOR",
+      "smell_label": "DataClass",
+      "text": "DataClass: 'BuilderGuava5' FIELDS=8 WMC=16",
+      "class_name": "BuilderGuava5",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v3\\BuilderGuava5.java"
+    },
+    {
+      "rule": "java:S1067",
+      "type": "CODE_SMELL",
+      "severity": "MAJOR",
+      "smell_label": "LongMethod",
+      "text": "LongMethod: 'RegistryGuava8' max_method_loc=70",
+      "class_name": "RegistryGuava8",
+      "file_path": "D:\\University Material\\Grad\\code_smell_project (2)\\code_smell_project\\projects\\guava-sim\\src\\main\\java\\guava\\v3\\RegistryGuava8.java"
+    }
+  ]
+}
